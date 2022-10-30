@@ -1,0 +1,36 @@
+.header-image{
+    width: 100%;
+    height: 400px;
+    /* filter: blur(0.7px) contrast(1.1) grayscale(0.07) url('#dark-blue-sepia') sepia(0.31); */
+}
+.header-image-up::before{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 400px;
+    background:rgb(38 70 92 / 58%);
+    content:"";
+    z-index:1;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content-header{
+    color:rgb(37, 37, 37);
+    font-family:'Montserrat', sans-serif;
+}
+
+.text-content-info{
+    color:rgb(37, 37, 37);
+    font-family:'Montserrat', sans-serif;
+    width: 820px;
+    margin-top: 20px;
+    line-height: 2;
+    display: inline ;
+}
