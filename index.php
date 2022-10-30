@@ -11,7 +11,6 @@
             <link rel="stylesheet" href="assets/splide-4.1.3/dist/css/splide.min.css">
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
             <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-            <!-- <link rel="stylesheet" href="https://resources/demos/style.css"> -->
             <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
             <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
             <link href='https://css.gg/css' rel='stylesheet'>
@@ -49,7 +48,7 @@
                     </li>
                 </ul>
             </div>
-            <section class="splide" aria-label="Splide Basic HTML Example">
+            <section class="splide" aria-label="ramada-hostel-image">
                 <div class="splide__track">
                       <ul class="splide__list">
                           <li class="splide__slide"><img class="slide-image" src="https://bisanthepanorama.com/wp-content/uploads/2021/03/bungalovs-scaled.jpg"/></li>
@@ -105,7 +104,7 @@
             <div class="content-upper">
                 <h1 class="content-upper-title"> Ramada Resort Termal Sapanca </h1>
                  <div class="content-upper-context">
-                    <img class="content-upper-context-image" src="https://cdn.hellovillam.com/HelloVillam/images/w600/bungalov-deger-1-1-oda-4-kisi-126323.jpg" />
+                    <img class="content-upper-context-image" src="assets/images/19.jpg" />
                     <p class="content-upper-context-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dünyanın en yaygın uluslararası otel markası olan Wyndham Hotels & Group’un bir üyesi olarak, yüksek standartları ile tasarlanmış 
                         Ramada Resort Thermal  Sapanca, sizleri doğanın göz kamaştırıcı güzelliği ve ileri teknoloji, konfor ve estetik ile buluşturuyor.
                         </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lobideki güler yüzlü karşılama ile başlayan hoş geldiniz, sizin Ramada Resort Thermal Sapanca deneyiminizin başlangıcıdır.
@@ -119,12 +118,12 @@
                     <div class="room-list-item">
                         <div class="zoom-effect-container">
                             <div class="image-card">
-                                <img class="room-list-item-image" src="https://cdn.tatilsepeti.com/Files/Images/Tesis/07216/450x300/tsr07216637295613979922217.jpg"/>
+                                <img class="room-list-item-image" src="assets/images/11.jpg"/>
                             </div>
                         </div>
                         <div class="room-list-item-info">
                             <div class="room-list-item-title">
-                                Büyük ev
+                                Bungalov Sky 
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
@@ -134,7 +133,49 @@
                                 <span class="room-list-item-icon form-icon gg-glass"></span>
                             </div>
                             <div class="under-line"></div>
-                            <button class="room-detail-button">Detay</button>
+                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                        </div>
+                    </div>
+                    <div class="room-list-item">
+                        <div class="zoom-effect-container">
+                            <div class="image-card">
+                                <img class="room-list-item-image" src="assets/images/03.jpg"/>
+                            </div>
+                        </div>
+                        <div class="room-list-item-info">
+                            <div class="room-list-item-title">
+                                Bungalov Delux 
+                                <div class="under-line"></div>
+                            </div>
+                            <div class="room-list-item-icons">
+                                <span class="room-list-item-icon form-icon gg-phone"></span>
+                                <span class="room-list-item-icon form-icon gg-tv"></span>
+                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
+                                <span class="room-list-item-icon form-icon gg-glass"></span>
+                            </div>
+                            <div class="under-line"></div>
+                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                        </div>
+                    </div>
+                    <div class="room-list-item">
+                        <div class="zoom-effect-container">
+                            <div class="image-card">
+                                <img class="room-list-item-image" src="assets/images/07.jpg"/>
+                            </div>
+                        </div>
+                        <div class="room-list-item-info">
+                            <div class="room-list-item-title">
+                                 Bungalov Turkuaz 
+                                <div class="under-line"></div>
+                            </div>
+                            <div class="room-list-item-icons">
+                                <span class="room-list-item-icon form-icon gg-phone"></span>
+                                <span class="room-list-item-icon form-icon gg-tv"></span>
+                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
+                                <span class="room-list-item-icon form-icon gg-glass"></span>
+                            </div>
+                            <div class="under-line"></div>
+                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
                         </div>
                     </div>
                     <div class="room-list-item">
@@ -145,7 +186,7 @@
                         </div>
                         <div class="room-list-item-info">
                             <div class="room-list-item-title">
-                                Büyük ev
+                            Bungalov Silver
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
@@ -155,18 +196,19 @@
                                 <span class="room-list-item-icon form-icon gg-glass"></span>
                             </div>
                             <div class="under-line"></div>
-                            <button class="room-detail-button">Detay</button>
+                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
                         </div>
+                        
                     </div>
                     <div class="room-list-item">
                         <div class="zoom-effect-container">
                             <div class="image-card">
-                                <img class="room-list-item-image" src="https://cdn.tatilsepeti.com/Files/Images/Tesis/07216/450x300/tsr07216637295613979922217.jpg"/>
+                                <img class="room-list-item-image" src="assets/images/08.jpg"/>
                             </div>
                         </div>
                         <div class="room-list-item-info">
                             <div class="room-list-item-title">
-                                Büyük ev
+                            Bungalov Gold
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
@@ -176,29 +218,9 @@
                                 <span class="room-list-item-icon form-icon gg-glass"></span>
                             </div>
                             <div class="under-line"></div>
-                            <button class="room-detail-button">Detay</button>
+                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
                         </div>
-                    </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="https://cdn.tatilsepeti.com/Files/Images/Tesis/07216/450x300/tsr07216637295613979922217.jpg"/>
-                            </div>
-                        </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                                Büyük ev
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                            <button class="room-detail-button">Detay</button>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -239,8 +261,13 @@
             </div>
         </footer>
           <script>
-            new Splide( '.splide' ).mount();
-        </script>
+                new Splide( '.splide',{  
+                    type   : 'loop',
+                    perPage: 1,
+                    autoplay:true,
+                    interval:2500
+                } ).mount();
+            </script>
         <script>
              $(function() {
                 $('#datepicker1').datepicker({

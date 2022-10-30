@@ -9,31 +9,38 @@
             </description>
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/other-pages.css">
+            <link rel="stylesheet" href="assets/css/room-detail.css">
             <link rel="stylesheet" href="assets/splide-4.1.3/dist/css/splide.min.css">
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
             <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
             <!-- <link rel="stylesheet" href="https://resources/demos/style.css"> -->
-            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+            
             <link href='https://css.gg/css' rel='stylesheet'>
+            <link rel="stylesheet" href="assets/owl/assets/owl.carousel.min.css">  </link>
     </head>
     <body>
         <header class="header">
-            <div class="menu">
-                <ul class="menu-ul">
+        <div class="menu">
+                <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
-                      <a href="" class="menu-button">Ana Sayfa</a>  
+                      <a href="./" class="menu-button">Ana Sayfa</a>  
                     </li>
                     <li class="menu-li">
-                        <a href="" class="menu-button">Kurumsal</a> 
-                        <ul class="menu-ul">
+                        <a href="#" class="menu-button">Kurumsal</a> 
+                        <ul class="menu-ul flex-direction-column">
                             <li class="menu-li">
-                                <a href="" class="menu-button">Hakkımızda</a> 
+                                <a href="./hakkimizda.php" class="menu-button">Hakkımızda</a> 
+                            </li>
+                            <li class="menu-li">
+                                <a href="#" class="menu-button">İk / Kariyer</a> 
+                            </li>
+                            <li class="menu-li">
+                                <a href="#" class="menu-button">Kişisel verilerin korunması</a> 
                             </li>
                         </ul>
                     </li>
                     <li class="menu-li">
-                        <a  href="" class="menu-button">Odalarımız</a> 
+                        <a  href="./odalarimiz.php" class="menu-button">Odalarımız</a> 
                     </li>
                     <li class="menu-li">
                         <a href="" class="menu-button">Toplantı</a> 
@@ -57,11 +64,141 @@
         </header>
        
         <div class="content other-page">
+                <div class="room-cascader">
+                    <div class="owl-carousel owl-theme">
+                        <span>  <img  class="owl-carousel-image" src="assets/images/oda-1.jpeg"></span>
+                        <span> <img  class="owl-carousel-image" src="assets/images/oda-2.jpg"></span>
+                        <span> <img  class="owl-carousel-image" src="assets/images/oda-3.jpg"></span>
+                        <span>  <img  class="owl-carousel-image" src="assets/images/oda-4.jpg"></span>
+                        <span>  <img  class="owl-carousel-image" src="assets/images/oda-5.jpg"></span>
+                        <span>  <img  class="owl-carousel-image" src="assets/images/oda-6.jpg"></span>
+                    </div>
+                </div>
             <div class="content-underline"></div>
             <div class="content-mid">
-                    <div>
-                        
+                <div class="room-detail">
+                    <div class="room-detail-wrap">
+                        <div class="detail-wrap-item">
+                            <div class="w-header">Yetiskin</div>
+                            <div class="w-content">2</div>
+                        </div>
+                       
+                        <div class="line"></div>
+                        <div class="detail-wrap-item">
+                            <div class="w-header">Cocuk</div>
+                            <div class="w-content">1</div>
+                        </div>
                     </div>
+                    <div class="room-detail-info">
+                        <h2 class="room-detail-info-title">Açıklama</h2>
+                        <div class="content-underline"></div>
+                        <p class="room-detail-content">İçinde huzur bulacağınız küçük ahşap ev. 
+                            Alt katta oturma alanınız, size özel bahçeniz ve bahçe masanız, üst katta Sapanca Gölü manzaralı yatak odanız bulunuyor.</p>
+                    </div>
+                    <div class="room-detail-features">
+                        <h2 class="room-detail-features-title">Özellikleri</h2>
+                        <div class="room-detail-features-content">
+                            <ul class="items">
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Bahce Manzarası</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Digital Klima</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Havuzlu</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Tek Kullanımlık Terlik</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Bahce Manzarası</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Digital Klima</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Havuzlu</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Tek Kullanımlık Terlik</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Bahce Manzarası</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Digital Klima</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Havuzlu</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Tek Kullanımlık Terlik</div>
+                                </li>
+                                <li class="item">
+                                    <i class="gg-check-o icon"></i>
+                                    <div class="item-info">Tek Kullanımlık Terlik</div>
+                                </li>
+                            <ul>
+                        </div>
+                    </div>
+                    <h2 class="room-detail-features-title">Rezervasyon</h2>
+                    <div class="room-detail-rezervation">
+                      
+                        <form class="booking-form">
+                            <div class="form-item">
+                                <div class="form-item-icon">
+                                    <span class="form-icon gg-calendar-dates"></span>
+                                </div>
+                                <div class="form-item-info">Giriş</div>
+                                <input class="form-item-date" type="text" id="datepicker1">
+                            </div>
+                            <div class="form-item">
+                                <div class="form-item-icon">
+                                    <span class="form-icon gg-calendar-dates"></span>
+                                </div>
+                                <div class="form-item-info">Cıkış</div>
+                                <input class="form-item-date" type="text" id="datepicker2">
+                            </div>
+                            <div class="form-item">
+                                <div class="form-item-icon">
+                                    <span class="form-icon gg-home"></span>
+                                </div>
+                                <div class="form-item-info">Oda</div>
+                                <input class="form-item-count" type="text">
+                            </div>
+                            <div class="form-item">
+                                <div class="form-item-icon">
+                                    <span class="form-icon gg-profile"></span>
+                                </div>
+                                <div class="form-item-info">Yetişkin</div>
+                                <input class="form-item-count" type="text">
+                            </div>
+                            <div class="form-item">
+                                <div class="form-item-icon">
+                                    <span class="form-icon gg-boy"></span>
+                                </div>
+                                <div class="form-item-info">Çocuk</div>
+                                <input class="form-item-count" type="text">
+                            </div>
+                            <div class="form-item">
+                                <button class="form-button">Rezervasyon</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
             <div class="content-footer"></div>
         </div>
@@ -99,10 +236,10 @@
                 </div>
             </div>
         </footer>
-          <script>
-            new Splide( '.splide' ).mount();
-        </script>
-        <script>
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+            <script src="assets/owl/owl.carousel.min.js"></script>
+         <script>
              $(function() {
                 $('#datepicker1').datepicker({
                     uiLibrary: 'bootstrap'
@@ -110,7 +247,18 @@
                 $('#datepicker2').datepicker({
                     uiLibrary: 'bootstrap'
                 });
+
+                $('.owl-carousel').owlCarousel({
+                    margin:10,
+                    loop:true,
+                    autoWidth:true,
+                    items:4,
+                    autoplay:true,
+                    autoplayTimeout:2500,
+                });
             })
         </script>
+
+       
     </body>
 </html>

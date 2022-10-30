@@ -236,12 +236,14 @@ body{
  }
 
  .content-underline{
+    margin-top: 50px;
     width: 80%;
     height: 1px;
     background-color:rgb(216, 213, 205);
     border-radius: 16px;
  }
  .content-mid{
+    margin: auto;
     margin-top: 30px;
  }
 
@@ -260,10 +262,8 @@ body{
 }
 
 .room-list-item-image {
-    /* width:450px;
+     width:450px;
     height:300px;
-    -webkit-transition: 0.4s ease;
-  transition: 0.4s ease; */
 }
 .zoom-effect-container {
     position: relative;
@@ -277,7 +277,6 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    
   }
   
   .image-card img {
@@ -286,6 +285,7 @@ body{
   }
   
   .zoom-effect-container:hover .image-card img {
+
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
   }
@@ -297,7 +297,9 @@ body{
     margin-left: 70px;
     margin-top: 10px;
  }
-
+.room-list-item-info a{
+    text-decoration: none;
+}
 .room-list-item-icons{
     display: flex;
     flex-direction: row;
