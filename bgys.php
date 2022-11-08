@@ -2,7 +2,7 @@
 <!DOCTYPE html>
     <head>
             <title>
-                Hakkımızda
+                Kişisel Verilerin Korunması
             </title>
             <description>
 
@@ -76,11 +76,10 @@
             </div>
             <div class="page-title">
                 <h1>
-                    Hakkımızda
+                    Kişisel Verilerin Korunması
                 </h1>
                 <h3> 
-                    Anasayfa / Hakkımızda
-                </h3>
+                    Anasayfa / Kişisel Verilerin Korunması 
             </div>
             <div class="header-image-up">
                 <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
@@ -92,21 +91,40 @@
             <div class="content-mid">
                 <div class="text-content">
                     <h2 class="text-content-header">
-                        Ramada Resort Termal Sapanca
+                        BİLGİ GÜVENLİĞİ YÖNETİM SİSTEMİ POLİTİKASI
                     </h2>
-                    <p class="text-content-info"> 
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dünyanın en yaygın uluslararası otel markası olan Wyndham Hotels & Group’un bir üyesi olarak, yüksek standartları ile tasarlanmış Ramada Resort Termal  Sapanca, sizleri doğanın göz kamaştırıcı güzelliği ve ileri teknoloji, konfor ve estetik ile buluşturuyor. Lobideki güler yüzlü karşılama ile başlayan hoş geldiniz, sizin Ramada Resort Termal Sapanca deneyiminizin başlangıcıdır. Kusursuz dizaynının özünde konsept olarak  3+1 ve  2+1 seçenekleri ie toplamda 100 adet  Bungalov evden oluşmaktadır. Tüm genel alanlar ve tüm Bungalov evlerin de  ücretsiz kablosuz internet kullanımı mevcuttur.
- </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Termal suyumuz Türkiye de en değerli minerallere sahiptir,  size sağlık getirecek termal havuzlarımız ve jakuzilerimiz de rahatlayabilir, hamam, sauna, ve buhar odası aktivitelerimizle tatilinizi doyasıya yaşayabilirsiniz. 
-Tüm misafirlerimiz, günlük streslerinden arınmak için , Termal sıcak suyun evlere kadar geldiği Ultra lüx Bungalov evlerinde Yeşilin ve mavi sapanca gölünün keyfine varacaktır.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ortak açık havuzların bulunduğu Ramada Resort Thermal  Sapanca olanaklarından da misafirlerimiz ücretsiz faydalanabilirler. Restoranlarımızda, damak zevkinizi yüceltmek için sizlere Türk Mutfağının ve Uluslararası mutfakların en lezzetli örneklerini sunuyoruz.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Otelimiz bünyesinde bulunan Dolce Cafe & Restoran ile farklı lezzetleri tadabilir, içeceklerinizi yudumlayarak günün yorgunluğunu atabilirsiniz.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Misyonumuz, geleneksel Türk misafirperverliği ile sizin rahatınızı üst seviyelere yükseltmek ve standartlarımızı en üst seviyede tutarak, sizlere unutulmaz bir konaklama deneyimi yaşatmaktır. Otelimizin hiçbir yerinde Alkol hizmeti verilmemektedir. Ramada Resort Thermal Bungalov Sapanca organizasyonlarınız ve toplantılarınızda size kendinizi rahat ve ayrıcalıklı hissedebileceğiniz, üst düzey bir hizmet sunar.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramada Resort Termal Bungalov Sapanca, sapancanın göz bebeği muhteşem bir alanda konuşlandırılmıştır. Şehir merkezine 15km mesafededir. Ayrıca Marmara bölgesinin birçok turistik merkezine de araç mesafesindedir. 
+                    <p class="mini-content">TS EN ISO 27001:2013 EK/A Maddeleri Bilgi Güvenliği Yönetim Sistemin ana teması; Kraas Gıda Day. Tük. Malları Teks. Ür. Turizm Otelcilik ve İnş. Taahh. San. Tic. AŞ (Ramada By Wyndham Sakarya) Şirketi ürün ve hizmetlerinde, insan, alt yapı, yazılım, donanım, müşteri bilgileri, kuruluş bilgileri, üçüncü şahıslara ait bilgiler ve finansal kaynaklar içerisinde bilgi güvenliği yönetiminin sağlandığını göstermek, risk yönetimini güvence altına almak, bilgi güvenliği yönetimi süreç performansını ölçmek ve bilgi güvenliği ile ilgili konularda üçüncü taraflara olan ilişkilerin düzenlenmesini sağlamaktır. </p>
+                    <h4 class="mini-header">Bu doğrultuda BGYS Politikamızın amacı;</h4>
+                    <p class="mini-content">
+                         İçeriden veya dışarıdan, bilerek ya da bilmeyerek meydana gelebilecek her türlü tehdide karşı Kraas Gıda Day. Tük. Malları Teks. Ür. Turizm Otelcilik ve İnş. Taahh. San. Tic. AŞ (Ramada By Wyndham Sakarya) Bilgi varlıklarını korumak, bilgiye erişilebilirliği iş süreçleriyle gerektiği şekilde sağlamak, yasal mevzuat gereksinimlerini karşılamak, sürekli iyileştirmeye yönelik çalışmalar yapmak,
+</br></br>
+        Yürütülen tüm faaliyetlerde Bilgi Güvenliği Yönetim Sisteminin üç temel öğesinin sürekliliğini sağlamak:
+</br></br>
+Gizlilik: Önem taşıyan bilgilere yetkisiz erişimlerin önlenmesi,
+</br></br>
+Bütünlük: Bilginin doğruluk ve bütünlüğünün sağlandığının gösterilmesi,
+
+</br></br>
+Erişilebilirlik: Yetkisi olanların gerektiği hallerde bilgiye ulaşılabilirliğinin gösterilmesi,
+</br></br>
+        Sadece elektronik ortamda tutulan verilerin değil; yazılı, basılı, sözlü ve benzeri ortamda bulunan tüm verilerin güvenliği ile ilgilenmek.
+</br></br>
+      Bilgi Güvenliği Yönetimi eğitimlerini tüm personele vererek bilinçlendirmeyi sağlamak,
+</br></br>
+       Bilgi Güvenliğindeki gerçekte var olan veya şüphe uyandıran tüm açıklıkları, BGYS Ekibine rapor etmek ve BGYS Koordinatörü tarafından soruşturulmasını sağlamak,
+</br></br>
+        İş süreklilik planları hazırlamak, sürdürmek ve test etmek,
+</br></br>
+      Bilgi Güvenliği konusunda periyodik olarak değerlendirmeler yaparak mevcut riskleri tespit etmek; değerlendirmeler sonucunda, aksiyon planlarını gözden geçirmek ve takibini yapmak,
+</br></br>
+       Sözleşmelerden doğabilecek her türlü anlaşmazlık ve çıkar çatışmasını engellemek,
+</br></br>
+Bilgiye erişilebilirlik ve bilgi sistemleri için iş gereksinimlerini karşılamaktır. 
                     </p>
-                </div>
             </div>
             <div class="content-footer"></div>
         </div>
+                                </div>
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">

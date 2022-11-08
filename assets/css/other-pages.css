@@ -17,11 +17,12 @@
 .text-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 1080px;
+    row-gap:30px ;
 }
 
 .text-content-header{
+    margin: auto;
     color:rgb(37, 37, 37);
     font-family:'Montserrat', sans-serif;
 }
@@ -33,4 +34,22 @@
     margin-top: 20px;
     line-height: 2;
     display: inline ;
+}
+
+.mini-header{
+    color:rgb(37, 37, 37);
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.mini-content{
+    color:rgb(37, 37, 37);
+    font-size: 14px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.MsoNormal{
+    color:rgb(37, 37, 37);
+    font-size: 14px;
+    font-family:'Montserrat', sans-serif;
 }

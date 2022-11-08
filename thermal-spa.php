@@ -2,7 +2,7 @@
 <!DOCTYPE html>
     <head>
             <title>
-                Hakkımızda
+                Termal Spa
             </title>
             <description>
 
@@ -76,11 +76,10 @@
             </div>
             <div class="page-title">
                 <h1>
-                    Hakkımızda
+                     THERMAL SPA
                 </h1>
                 <h3> 
-                    Anasayfa / Hakkımızda
-                </h3>
+                    Anasayfa / THERMAL SPA
             </div>
             <div class="header-image-up">
                 <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
@@ -92,21 +91,24 @@
             <div class="content-mid">
                 <div class="text-content">
                     <h2 class="text-content-header">
-                        Ramada Resort Termal Sapanca
+                        THERMAL SPA
                     </h2>
-                    <p class="text-content-info"> 
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dünyanın en yaygın uluslararası otel markası olan Wyndham Hotels & Group’un bir üyesi olarak, yüksek standartları ile tasarlanmış Ramada Resort Termal  Sapanca, sizleri doğanın göz kamaştırıcı güzelliği ve ileri teknoloji, konfor ve estetik ile buluşturuyor. Lobideki güler yüzlü karşılama ile başlayan hoş geldiniz, sizin Ramada Resort Termal Sapanca deneyiminizin başlangıcıdır. Kusursuz dizaynının özünde konsept olarak  3+1 ve  2+1 seçenekleri ie toplamda 100 adet  Bungalov evden oluşmaktadır. Tüm genel alanlar ve tüm Bungalov evlerin de  ücretsiz kablosuz internet kullanımı mevcuttur.
- </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Termal suyumuz Türkiye de en değerli minerallere sahiptir,  size sağlık getirecek termal havuzlarımız ve jakuzilerimiz de rahatlayabilir, hamam, sauna, ve buhar odası aktivitelerimizle tatilinizi doyasıya yaşayabilirsiniz. 
-Tüm misafirlerimiz, günlük streslerinden arınmak için , Termal sıcak suyun evlere kadar geldiği Ultra lüx Bungalov evlerinde Yeşilin ve mavi sapanca gölünün keyfine varacaktır.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ortak açık havuzların bulunduğu Ramada Resort Thermal  Sapanca olanaklarından da misafirlerimiz ücretsiz faydalanabilirler. Restoranlarımızda, damak zevkinizi yüceltmek için sizlere Türk Mutfağının ve Uluslararası mutfakların en lezzetli örneklerini sunuyoruz.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Otelimiz bünyesinde bulunan Dolce Cafe & Restoran ile farklı lezzetleri tadabilir, içeceklerinizi yudumlayarak günün yorgunluğunu atabilirsiniz.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Misyonumuz, geleneksel Türk misafirperverliği ile sizin rahatınızı üst seviyelere yükseltmek ve standartlarımızı en üst seviyede tutarak, sizlere unutulmaz bir konaklama deneyimi yaşatmaktır. Otelimizin hiçbir yerinde Alkol hizmeti verilmemektedir. Ramada Resort Thermal Bungalov Sapanca organizasyonlarınız ve toplantılarınızda size kendinizi rahat ve ayrıcalıklı hissedebileceğiniz, üst düzey bir hizmet sunar.
- </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramada Resort Termal Bungalov Sapanca, sapancanın göz bebeği muhteşem bir alanda konuşlandırılmıştır. Şehir merkezine 15km mesafededir. Ayrıca Marmara bölgesinin birçok turistik merkezine de araç mesafesindedir. 
-                    </p>
-                </div>
+                    <p class="mini-content">
+                    Alanlarında uzman, tecrübeli, samimi, sempatik ekibimiz sizleri yaşamın tüm stresli anlarından uzaklaştıracak, kişiye özel bakımlarla, hem bedeninizi  hem de ruhunuzu dinlendirecek. Uzakdoğu' nun egzotik SPA keyfini Ramada Resort Thermal  Sapanca  farkıyla yaşayın.
+                    </br></br>
+                    1 Adet Ortak 1 Adet Bayanlara özel açık havuz keyfiniTermal suyumuz Türkiye de en değerli minerallere sahiptir,  size sağlık getirecek termal havuzlarımız ve jakuzilerimiz de rahatlayabilir, hamam, sauna, ve buhar odası aktivitelerimizle tatilinizi doyasıya yaşayabilirsiniz
+                    </br></br>
+                    </br></br>Kişisel bakım ve masaj odalarımızda, anti-stresten selülite , lokal ağrılardan, cilt sorunlarına kadar her türlü sorununuzu size özel hazırlanan programlarımız ile çözecek, sağlık ve güzellik hizmeti sunuyoruz.
+                    </br></br>Ramada Resort Thermal  Sapanca  bulunduğu bölgenin ihtiyaçlarına karşılık gelecek konsepti ile tüm ıslak alanlarda bayan-erkek ayrı olmak üzere siz kıymetli misafirlerimizin hizmetine sunulmuştur.
+                    </br></br>Ramada Resort Thermal  Sapanca  kalitesini yaşamak için sizleride bekleriz.
+    
+                </p>
+                   
+                   
             </div>
             <div class="content-footer"></div>
         </div>
+                                </div>
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">

@@ -2,12 +2,13 @@
 <!DOCTYPE html>
     <head>
             <title>
-                Odalarimiz
+                Restorant Menu
             </title>
             <description>
 
             </description>
             <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/menu.css">
             <link rel="stylesheet" href="assets/css/other-pages.css">
             <link rel="stylesheet" href="assets/splide-4.1.3/dist/css/splide.min.css">
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
@@ -76,11 +77,10 @@
             </div>
             <div class="page-title">
                 <h1>
-                    Odalarımız
+                    Yiyecek & İçecek
                 </h1>
                 <h3> 
-                    Anasayfa / Odalarimiz
-                </h3>
+                    Anasayfa / Restoran
             </div>
             <div class="header-image-up">
                 <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
@@ -90,117 +90,99 @@
         <div class="content other-page">
             <div class="content-underline"></div>
             <div class="content-mid">
-            <div class="room-list">
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/11.jpg"/>
-                            </div>
+                <div class="restourant-menu">
+                    <div class="restourant-menu-item" >
+                        <img class="menu-image" src="https://bungalov-test-website.000webhostapp.com/assets/images/food/1.PNG"/>
+                        <div class="menu-item-content" >
+                            <h5 class="menu-item-header">Kirmizi Salatali Pankek</h5>
+                            <p class="menu-item-info">
+                                Kahvaltı için renkli bir pancake ile sofranızı süslemeye ne dersiniz? Rengiyle sizleri büyüleyecek bu tarifi yapmak oldukça kolay. 
+                                Evdeki malzemelerle hızlıca pancake hamurunu hazırlıyoruz ve tavada pişiriyoruz.  
+                            </p>
                         </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                                Bungalov Sky 
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                            <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                        <div class="menu-item-price-box">
+                            <label class="menu-item-label">Fiyat</label>
+                            <div class="vertical-line"></div>
+                            <h5 class="menu-item-price">₺150</h5>
                         </div>
                     </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/03.jpg"/>
-                            </div>
+                    <div class="restourant-menu-item" >
+                        <img class="menu-image" src="https://img-global.cpcdn.com/recipes/f7d16ad682b8642a/680x482cq70/sourdough-pancake-with-raspberries-soft-serve-jam-recipe-main-photo.webp"/>
+                        <div class="menu-item-content" >
+                            <h5 class="menu-item-header">Pankek</h5>
+                            <p class="menu-item-info">
+                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
+                            </p>
                         </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                                Bungalov Delux 
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                        <div class="menu-item-price-box">
+                            <label class="menu-item-label">Fiyat</label>
+                            <div class="vertical-line"></div>
+                            <h5 class="menu-item-price">₺150</h5>
                         </div>
                     </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/07.jpg"/>
-                            </div>
+                    <div class="restourant-menu-item" >
+                        <img class="menu-image" src="https://www.happyfoodstube.com/wp-content/uploads/2020/01/healthy-greek-yogurt-breakfast-bowl.jpg"/>
+                        <div class="menu-item-content" >
+                            <h5 class="menu-item-header">Yogur Salatasi</h5>
+                            <p class="menu-item-info">
+                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
+                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, 
+                            </p>
                         </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                                 Bungalov Turkuaz 
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                        <div class="menu-item-price-box">
+                            <label class="menu-item-label">Fiyat</label>
+                            <div class="vertical-line"></div>
+                            <h5 class="menu-item-price">₺150</h5>
                         </div>
                     </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="https://cdn.tatilsepeti.com/Files/Images/Tesis/07216/450x300/tsr07216637295613979922217.jpg"/>
-                            </div>
+                    <div class="restourant-menu-item" >
+                        <img class="menu-image" src="http://images.ctfassets.net/lufu0clouua1/3qcLXH3uOcEMue28yEE2ki/6a62eabf42b81cb73a756335ac214fa5/Raspberry-Brie-Grilled-Cheese-Sandwich.jpg"/>
+                        <div class="menu-item-content" >
+                            <h5 class="menu-item-header">Orman Meyveli Sandvic</h5>
+                            <p class="menu-item-info">
+                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
+                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, 
+                            </p>
                         </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                            Bungalov Silver
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                        <div class="menu-item-price-box">
+                            <label class="menu-item-label">Fiyat</label>
+                            <div class="vertical-line"></div>
+                            <h5 class="menu-item-price">₺150</h5>
                         </div>
-                        
                     </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/08.jpg"/>
-                            </div>
+                    <div class="restourant-menu-item" >
+                        <img class="menu-image" src="https://img.freepik.com/premium-photo/chilled-cucumber-microgreen-soup-large-glasses_219795-1371.jpg?w=1380"/>
+                        <div class="menu-item-content" >
+                            <h5 class="menu-item-header">Yesil Corba</h5>
+                            <p class="menu-item-info">
+                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
+                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, 
+                            </p>
                         </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                            Bungalov Gold
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                        <div class="menu-item-price-box">
+                            <label class="menu-item-label">Fiyat</label>
+                            <div class="vertical-line"></div>
+                            <h5 class="menu-item-price">₺150</h5>
                         </div>
-                        
+                    </div>
+                    <div class="restourant-menu-item" >
+                        <img class="menu-image" src="https://img.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-meat-tomatoes-decorated-with-pea-sprouts-dark-table_2829-3412.jpg?w=1380"/>
+                        <div class="menu-item-content" >
+                            <h5 class="menu-item-header">Soslu Makarna</h5>
+                            <p class="menu-item-info">
+                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
+                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı,
+                            </p>
+                        </div>
+                        <div class="menu-item-price-box">
+                            <label class="menu-item-label">Fiyat</label>
+                            <div class="vertical-line"></div>
+                            <h5 class="menu-item-price">₺150</h5>
+                        </div>
                     </div>
                 </div>
+                <div class="content-footer"></div>
             </div>
-            <div class="content-footer"></div>
         </div>
         <footer>
             <div class="footer-content">

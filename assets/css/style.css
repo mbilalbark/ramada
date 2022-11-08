@@ -71,7 +71,9 @@ body{
     -webkit-transition: all .3s;
     transition: all .3s;
 }
-
+.menu-up{
+    margin-top: -14px !important;
+}
 .menu-li{
     font-family: 'Montserrat', sans-serif;
     list-style-type: none;
