@@ -14,7 +14,7 @@
 
 .career-form-part-header{
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 
 .career-form-inputs-horizontal{
@@ -32,12 +32,12 @@
 .career-form-input-label{
     font-size:14px;
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 
 .career-form-input{
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     width: 150px;
     margin-top: 18px;
     display: block;
@@ -52,7 +52,7 @@
 
 .career-form-input option{
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 
 .career-form-input:focus{
@@ -91,14 +91,14 @@
     margin-top: 20px;
     font-size: 14px;
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 
 .form-info{
     margin-top: 20px;
     font-size: 14px;
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 
 .visible{
@@ -112,7 +112,7 @@
 .can-toggle {
     margin-top: 10px;
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     position: relative;
 }
 .can-toggle *, .can-toggle *:before, .can-toggle *:after {
@@ -120,7 +120,7 @@
 }
 .can-toggle input[type="checkbox"] {
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     opacity: 0;
     position: absolute;
     top: 0;
@@ -129,7 +129,7 @@
 .can-toggle input[type="checkbox"][disabled] ~ label {
     pointer-events: none;
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 .can-toggle input[type="checkbox"][disabled] ~ label .can-toggle__switch {
     opacity: 0.4;

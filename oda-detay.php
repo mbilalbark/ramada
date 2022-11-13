@@ -20,7 +20,8 @@
     </head>
     <body>
         <header class="header">
-        <div class="menu">
+            <div class="menu">
+                <img class="logo" src="https://www.ramadasakarya.com/img/site/logo.png"/>
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -32,15 +33,40 @@
                                 <a href="./hakkimizda.php" class="menu-button">Hakkımızda</a> 
                             </li>
                             <li class="menu-li">
-                                <a href="#" class="menu-button">İk / Kariyer</a> 
+                                <a href="./ik-kariyer.php" class="menu-button">İk / Kariyer</a> 
                             </li>
                             <li class="menu-li">
-                                <a href="#" class="menu-button">Kişisel verilerin korunması</a> 
+                                <a href="#" class="menu-button">Kişisel verilerin korunması</a>
+                                <ul class="menu-ul flex-direction-column menu-up">
+                                    <li class="menu-li">
+                                        <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
+                                    </li>
+                                    <li class="menu-li">
+                                        <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
+                                    </li>
+                                    <li class="menu-li">
+                                        <a href="./bgys.php" class="menu-button">BGYS</a> 
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-li">
                         <a  href="./odalarimiz.php" class="menu-button">Odalarımız</a> 
+                    </li>
+                    <li class="menu-li">
+                        <a  href="./thermal-spa.php" class="menu-button">Termal SPA</a> 
+                    </li>
+                    <li class="menu-li">
+                    <a href="#" class="menu-button">Restoran</a> 
+                        <ul class="menu-ul flex-direction-column">
+                            <li class="menu-li">
+                                <a href="./ramada-restoran-menu.php" class="menu-button">Restoran Menu</a> 
+                            </li>
+                            <li class="menu-li">
+                                <a href="#" class="menu-button">Mini Bar</a> 
+                            </li>
+                        </ul> 
                     </li>
                     <li class="menu-li">
                         <a href="" class="menu-button">Toplantı</a> 
@@ -255,6 +281,18 @@
                     items:4,
                     autoplay:true,
                     autoplayTimeout:2500,
+                });
+
+                $(window).scroll(function() {    
+                    var scroll = $(window).scrollTop();
+
+                    if (scroll >= 200) {
+                        $(".menu").addClass("scrolling");
+                        $(".menu-button").addClass("menu-button-s");
+                    } else {
+                        $(".menu").removeClass("scrolling");
+                        $(".menu-button").removeClass("menu-button-s");
+                    }
                 });
             })
         </script>

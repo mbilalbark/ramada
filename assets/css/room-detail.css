@@ -30,14 +30,14 @@
 }
 
 .detail-wrap-item .w-header{
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     font-size: 20px;
     color: rgb(114, 114, 114);
 }
 
 .detail-wrap-item .w-content{
     margin-left: 20px;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     font-size: 18px;
     color: rgb(19, 19, 19);
 }
@@ -49,14 +49,14 @@
 }
 
 .room-detail-info-title{
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     color:  rgb(19, 19, 19);
     margin-bottom: 20px;
 }
 
 .room-detail-content{
     margin-top: 50px;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     color:  rgb(53, 53, 53);
     font-size: 18px;
 }
@@ -71,7 +71,7 @@
 }
 
 .room-detail-features-title{
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     color:  rgb(19, 19, 19);
     margin-bottom: 20px;
 }
@@ -99,7 +99,7 @@
 
 .room-detail-features-content .item .item-info{
     margin-left: 20px;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     color:  rgb(19, 19, 19);
     margin-bottom: 18px;
 }

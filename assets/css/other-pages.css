@@ -17,6 +17,7 @@
 .text-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 1080px;
     row-gap:30px ;
 }
@@ -24,32 +25,128 @@
 .text-content-header{
     margin: auto;
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 
 .text-content-info{
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
-    width: 820px;
+    font-family:'Poppins', sans-serif;;
+    width: 1080px;
     margin-top: 20px;
     line-height: 2;
     display: inline ;
+    font-size: 14px;
 }
 
 .mini-header{
     color:rgb(37, 37, 37);
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
     font-weight: 700;
 }
 
 .mini-content{
     color:rgb(37, 37, 37);
     font-size: 14px;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
 }
 
 .MsoNormal{
     color:rgb(37, 37, 37);
     font-size: 14px;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;;
+}
+
+.text-content-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 960px;
+}
+
+.text-content-detail-item{
+    
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.item-part{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.part-header{
+    font-size:24px;
+    font-weight: 300px;
+    font-family:'Poppins', sans-serif;
+    color:rgb(37, 37, 37);
+}
+
+.part-content{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family:'Poppins', sans-serif;
+    color:rgb(37, 37, 37);
+}
+
+.general-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.general-detail-header{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family:'Poppins', sans-serif;
+    color:rgb(37, 37, 37);
+    text-align: center;
+}
+
+.general-detail-items{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.general-detail-item{
+    width: 320px;
+    height: 240px;
+    background-color: white;
+    border-top: 1px solid #ffc400;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    align-self: center;
+}
+
+.icon-parent{
+    margin: auto;
+    border-radius: 50%;
+    background-color: #ffc400;
+    border: 5px solid #fdeaaa;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.icon-parent i{
+    color:white;
+    font-size: 40px;
+}
+
+.item-label{
+    margin: auto;
+    font-weight: 100;
+    font-family:'Poppins', sans-serif;
+    color:rgb(37, 37, 37);
+    font-size:18px;
 }

@@ -20,7 +20,7 @@
     </head>
     <body>
         <header class="header">
-        <div class="menu">
+            <div class="menu">
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -228,6 +228,18 @@
                 });
                 $('#datepicker2').datepicker({
                     uiLibrary: 'bootstrap'
+                });
+
+                $(window).scroll(function() {    
+                    var scroll = $(window).scrollTop();
+
+                    if (scroll >= 200) {
+                        $(".menu").addClass("scrolling");
+                        $(".menu-button").addClass("menu-button-s");
+                    } else {
+                        $(".menu").removeClass("scrolling");
+                        $(".menu-button").removeClass("menu-button-s");
+                    }
                 });
             })
         </script>
