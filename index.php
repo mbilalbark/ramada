@@ -74,6 +74,14 @@
                     </li>
                     <li class="menu-li">
                         <a href="" class="menu-button">Toplantı</a> 
+                        <ul class="menu-ul flex-direction-column">
+                            <li class="menu-li">
+                                <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
+                            </li>
+                            <li class="menu-li">
+                                <a href="#" id="md-trigger" class="menu-button">Toplanti Teklif Formu</a> 
+                            </li>
+                        </ul> 
                     </li>
                     <li class="menu-li">
                         <a href="" class="menu-button">İletişim</a> 
@@ -302,6 +310,33 @@
                 </div>
             </div>
         </footer>
+        <div class="md-modal md-effect-12">
+            <div class="md-content">
+                <div class="modal-content">
+                    <h3>Toplanti Davet</h3>
+                    <form class="modal-form">
+                        <div class="modal-grid-item-1"> 
+                            <label class="form-label" >Etkinlik Turu</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-2">
+                            <label class="form-label" >Etkinlik Tarihi:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-3"> 
+                            <label class="form-label" >Etkinlik Adı:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-4">
+                            <label class="form-label" >Kişi Sayısı:</label>
+                            <input class="form-input" />
+                        </div>
+                    </form>
+                    <button id="md-close" class="md-close">Kapat</button>
+                </div>
+            </div>
+        </div>
+        <div class="md-overlay"></div>
         <script src="assets/datepicker/js/datepicker.min.js"></script>
         <script src="assets/datepicker/js/locales/tr.js"></script>
           <script>
@@ -357,6 +392,16 @@
                     $(".menu").removeClass("scrolling");
                     $(".menu-button").removeClass("menu-button-s");
                 }
+            });
+
+            $(function () {
+                $('#md-trigger').on('click', function() {
+                    $('.md-modal').addClass('md-show');
+                });
+                
+                $('#md-close').on('click', function() {
+                    $('.md-modal').removeClass('md-show');
+                });
             });
         </script>
     </body>
