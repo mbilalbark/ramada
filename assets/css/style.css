@@ -530,11 +530,11 @@ body{
 
 
 .md-modal {
-  margin: auto;
+    margin: auto;
 	position: fixed;
 	top: 100px;
 	left: 0;
-  right: 0;
+    right: 0;
 	width: 50%;
 	max-width: 630px;
 	min-width: 320px;
@@ -603,9 +603,13 @@ body{
     display: grid;
     margin: auto;
     overflow: hidden; 
-    height: 800px;
-    grid-template-columns: [first] 100px [line2] 100px [line3] 100px [line4] 100px [line5] 100px [end];
-    grid-template-rows: [row1] 120px [row2] 120px [row3] 120px [row4] 200px [row5] 120px [row6] 120px [row6];
+    height: 700px;
+    grid-template-columns: [first] 100px [line2] 100px [line3] 100px [line4] 100px [line5] 100px [line6] 100px [end];
+    grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 100px [row5] 100px [row6] 100px [row7] 100px [row8];
+}
+
+.md-close{
+
 }
 
 .modal-content{
@@ -618,48 +622,280 @@ body{
     align-items: center;
     justify-content: center;
     margin: auto;
+    font-size: 20px;
+    margin-top: 28px;
 }
 
 .modal-grid-item-1{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
 .modal-grid-item-2{
-    grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
 .modal-grid-item-3{
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
 .modal-grid-item-4{
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-.form-input{
-    color:rgb(37, 37, 37);
-    font-family:'Poppins', sans-serif;;
-    width: 90%;
-    display: block;
-    margin-top: 18px;
-    display: block;
-    outline: none;
-    border: none;
-    height: 2em;
-    font-size: 16px;
-    margin-bottom: 1px;
-    border-bottom: 1px solid rgb(207, 207, 207);
-    background-color: rgba(240, 248, 255, 0);
+.modal-grid-item-5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
+
+.modal-grid-item-6{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.modal-grid-item-7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.modal-grid-item-8{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.modal-grid-item-9{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.modal-grid-item-10{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.modal-grid-item-11{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.modal-grid-item-12{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+.modal-grid-item-13{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.form-input{
+    width:90%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+
+.form-input:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-label{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    font-size: 16px;
+}
+
+.form-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 140px;
+  }
+
+/* Hide the browser's default checkbox */
+.form-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .form-checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .form-checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .form-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .form-checkbox-container .checkmark:after {
+    left: 7px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .checkbox-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    column-gap: 4px;
+    row-gap: 20px;
+  }
+
+  .btn {
+    appearance: none;
+      -webkit-appearance: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 12px;
+    max-width: 100px;
+    float: right;
+    border: 0px;
+      -webkit-transition: background-color 100ms linear;
+      -ms-transition: background-color 100ms linear;
+       transition: background-color 100ms linear;
+  }
+  
+  .btn:focus, .btn.focus {
+    outline: 0;
+  }
+  
+  .btn-round-1 {
+    border-radius: 8px;
+  }
+  
+  .btn-round-2 {
+    border-radius: 20px;
+  }
+  
+  .btn-dark {
+    background: #000;
+    color: #ffffff;
+  }
+  
+  .btn-dark:hover {
+    background: #212121;
+    color: #ffffff;
+  }
+  
+  .btn-light {
+    background: #ededed;
+    color: #000;
+  }
+  
+  .btn-light:hover {
+    background: #dbdbdb;
+    color: #000;
+  }
+  
+  .btn-primary {
+    background: #3498db;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background: #2980b9;
+    color: #ffffff;
+  }
+  
+  .btn-success {
+    background: #2ecc71;
+    color: #ffffff;
+  }
+  
+  .btn-success:hover {
+    background: #27ae60;
+    color: #ffffff;
+  }
+  
+  .btn-warning {
+    background: #f1c40f;
+    color: #ffffff;
+  }
+  
+  .btn-warning:hover {
+    background: #f39c12;
+    color: #ffffff;
+  }
+  
+  .btn-danger {
+    background: #e74c3c;
+    color: #ffffff;
+  }
+  
+  .btn-danger:hover {
+    background: #c0392b;
+    color: #ffffff;
+  }

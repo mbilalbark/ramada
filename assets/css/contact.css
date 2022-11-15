@@ -1,0 +1,61 @@
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.contact-address{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 220px;
+    background-color: #f6f7f9;
+}
+
+.contact-adress-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+}
+
+.contact-form-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-form-item-detail{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.contact-address-info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color:#666666;
+}
+
+.contact-address-header{
+    font-family: 'Poppins', sans-serif;
+    color:#666666;
+    font-size: 16px;
+}
+
+.contact-adrress-phone{
+    font-family: 'Poppins', sans-serif;
+    color:#666666;
+    font-size: 12px;
+}
+
+.contact-icon{
+    font-weight: 100;
+    font-size: 35px;
+}

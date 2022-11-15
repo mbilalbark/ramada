@@ -91,99 +91,71 @@
             <div class="content-underline"></div>
             <div class="content-mid">
                 <div class="restourant-menu">
-                    <div class="restourant-menu-item" >
+                    <div class="restourant-menu-item" id="md-menu-trigger">
                         <img class="menu-image" src="https://bungalov-test-website.000webhostapp.com/assets/images/food/1.PNG"/>
-                        <div class="menu-item-content" >
-                            <h5 class="menu-item-header">Kirmizi Salatali Pankek</h5>
-                            <p class="menu-item-info">
-                                Kahvaltı için renkli bir pancake ile sofranızı süslemeye ne dersiniz? Rengiyle sizleri büyüleyecek bu tarifi yapmak oldukça kolay. 
-                                Evdeki malzemelerle hızlıca pancake hamurunu hazırlıyoruz ve tavada pişiriyoruz.  
-                            </p>
-                        </div>
-                        <div class="menu-item-price-box">
-                            <label class="menu-item-label">Fiyat</label>
-                            <div class="vertical-line"></div>
-                            <h5 class="menu-item-price">₺150</h5>
-                        </div>
+                        <h5 class="menu-item-header">Kirmizi Salatali Pankek<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" >
+                    <div class="restourant-menu-item" id="md-menu-trigger">
                         <img class="menu-image" src="https://img-global.cpcdn.com/recipes/f7d16ad682b8642a/680x482cq70/sourdough-pancake-with-raspberries-soft-serve-jam-recipe-main-photo.webp"/>
-                        <div class="menu-item-content" >
-                            <h5 class="menu-item-header">Pankek</h5>
-                            <p class="menu-item-info">
-                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
-                            </p>
-                        </div>
-                        <div class="menu-item-price-box">
-                            <label class="menu-item-label">Fiyat</label>
-                            <div class="vertical-line"></div>
-                            <h5 class="menu-item-price">₺150</h5>
-                        </div>
+                        <h5 class="menu-item-header">Pankek<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" >
+                    <div class="restourant-menu-item" id="md-menu-trigger">
                         <img class="menu-image" src="https://www.happyfoodstube.com/wp-content/uploads/2020/01/healthy-greek-yogurt-breakfast-bowl.jpg"/>
-                        <div class="menu-item-content" >
-                            <h5 class="menu-item-header">Yogur Salatasi</h5>
-                            <p class="menu-item-info">
-                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
-                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, 
-                            </p>
-                        </div>
-                        <div class="menu-item-price-box">
-                            <label class="menu-item-label">Fiyat</label>
-                            <div class="vertical-line"></div>
-                            <h5 class="menu-item-price">₺150</h5>
-                        </div>
+                        <h5 class="menu-item-header">Yogur Salatasi<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" >
+                    <div class="restourant-menu-item" id="md-menu-trigger">
                         <img class="menu-image" src="http://images.ctfassets.net/lufu0clouua1/3qcLXH3uOcEMue28yEE2ki/6a62eabf42b81cb73a756335ac214fa5/Raspberry-Brie-Grilled-Cheese-Sandwich.jpg"/>
-                        <div class="menu-item-content" >
-                            <h5 class="menu-item-header">Orman Meyveli Sandvic</h5>
-                            <p class="menu-item-info">
-                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
-                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, 
-                            </p>
-                        </div>
-                        <div class="menu-item-price-box">
-                            <label class="menu-item-label">Fiyat</label>
-                            <div class="vertical-line"></div>
-                            <h5 class="menu-item-price">₺150</h5>
-                        </div>
+                        <h5 class="menu-item-header">Orman Meyveli Sandvic<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" >
+                    <div class="restourant-menu-item" id="md-menu-trigger">
                         <img class="menu-image" src="https://img.freepik.com/premium-photo/chilled-cucumber-microgreen-soup-large-glasses_219795-1371.jpg?w=1380"/>
-                        <div class="menu-item-content" >
-                            <h5 class="menu-item-header">Yesil Corba</h5>
-                            <p class="menu-item-info">
-                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
-                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, 
-                            </p>
-                        </div>
-                        <div class="menu-item-price-box">
-                            <label class="menu-item-label">Fiyat</label>
-                            <div class="vertical-line"></div>
-                            <h5 class="menu-item-price">₺150</h5>
-                        </div>
+                        <h5 class="menu-item-header">Yesil Corba<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" >
+                    <div class="restourant-menu-item" id="md-menu-trigger">
                         <img class="menu-image" src="https://img.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-meat-tomatoes-decorated-with-pea-sprouts-dark-table_2829-3412.jpg?w=1380"/>
-                        <div class="menu-item-content" >
-                            <h5 class="menu-item-header">Soslu Makarna</h5>
-                            <p class="menu-item-info">
-                                Ezine Peynir,Kaşar Peynir, Çeçil Peynir,
-                                Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı,
-                            </p>
-                        </div>
-                        <div class="menu-item-price-box">
-                            <label class="menu-item-label">Fiyat</label>
-                            <div class="vertical-line"></div>
-                            <h5 class="menu-item-price">₺150</h5>
-                        </div>
+                        <h5 class="menu-item-header">Soslu Makarna<div class="menu-item-header-right"></div></h5>
                     </div>
                 </div>
                 <div class="content-footer"></div>
             </div>
         </div>
+        <div class="menu-modal md-effect-12">
+            <div class="md-content">
+                <div class="modal-content">
+                <div class="menu-item">
+                    <div class="md-menu-price">
+                        <div class="md-price-number">150.00</div>
+                        <div class="md-price-curency">TL</div>
+                    </div>
+                    <div class="md-menu-item-header">Kahvaltı tabağı / Breakfast plate</div>
+                    <div class="md-menu-item-info" >Ezine Peynir,Kaşar Peynir, Çeçil Peynir, Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, Bal, Kaymak, Roka, Kuru Kayısı, Çikolatalı Fındık Krema, Acuka, Patates Kızartması, Pişi,
+                         Sigara Böreği, Haşlanmış Yumurta, Yıldız Sosis, Poğaça ve Ekmek.</div>
+                </div>
+                <div class="md-menu-line"></div>
+                <div class="menu-item">
+                    <div class="md-menu-price">
+                        <div class="md-price-number">300.00</div>
+                        <div class="md-price-curency">TL</div>
+                    </div>
+                    <div class="md-menu-item-header">Kahvaltı tabağı / Breakfast plate</div>
+                    <div class="md-menu-item-info" >Ezine Peynir,Kaşar Peynir, Çeçil Peynir, Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, Bal, Kaymak, Roka, Kuru Kayısı, Çikolatalı Fındık Krema, Acuka, Patates Kızartması, Pişi,
+                         Sigara Böreği, Haşlanmış Yumurta, Yıldız Sosis, Poğaça ve Ekmek.</div>
+                </div>
+                <div class="md-menu-line"></div>
+                <div class="menu-item">
+                    <div class="md-menu-price">
+                        <div class="md-price-number">300.00</div>
+                        <div class="md-price-curency">TL</div>
+                    </div>
+                    <div class="md-menu-item-header">Açık Büfe Kahvaltı</div>
+                    <div class="md-menu-item-info" ></div>
+                </div>
+                <div class="md-menu-line"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="md-overlay"></div>
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
@@ -218,9 +190,7 @@
                 </div>
             </div>
         </footer>
-          <script>
-            new Splide( '.splide' ).mount();
-        </script>
+
         <script>
              $(function() {
                 $('#datepicker1').datepicker({
@@ -242,6 +212,15 @@
                     }
                 });
             })
+            $(function () {
+                $('#md-menu-trigger').on('click', function() {
+                    $('.menu-modal').addClass('md-show');
+                });
+                
+                $('#md-close').on('click', function() {
+                    $('.menu-modal').removeClass('md-show');
+                });
+            });
         </script>
     </body>
 </html>

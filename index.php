@@ -313,7 +313,7 @@
         <div class="md-modal md-effect-12">
             <div class="md-content">
                 <div class="modal-content">
-                    <h3>Toplanti Davet</h3>
+                    <h3 class="modal-header">Toplantı & Davet</h3>
                     <form class="modal-form">
                         <div class="modal-grid-item-1"> 
                             <label class="form-label" >Etkinlik Turu</label>
@@ -331,8 +331,73 @@
                             <label class="form-label" >Kişi Sayısı:</label>
                             <input class="form-input" />
                         </div>
+                        <div class="modal-grid-item-5"> 
+                            <label class="form-label" >Kurum Adı:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-6">
+                            <label class="form-label" >Göreviniz:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-7">
+                            <div class="checkbox-content">
+                                <label class="form-checkbox-container">Kokteyl
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Düğün
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Öğle Yemeği
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Yarım Gün Toplantı
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-grid-item-8">
+                            <div class="checkbox-content">
+                                <label class="form-checkbox-container">Gala Yemeği
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Salon
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Akşam Yemeği
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Kira
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-grid-item-9">
+                            <label class="form-label" >Ad - Soyad:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-10">
+                            <label class="form-label" >Email:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-11">
+                            <label class="form-label" >Telefon:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-12">
+                            <button class="btn btn-success">Gonder</button>
+                        </div>
+                        <div class="modal-grid-item-13">
+                            <button id="md-close" class="btn btn-danger">Kapat</button>
+                        </div>
                     </form>
-                    <button id="md-close" class="md-close">Kapat</button>
                 </div>
             </div>
         </div>
