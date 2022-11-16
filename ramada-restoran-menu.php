@@ -21,6 +21,7 @@
     <body>
         <header class="header">
             <div class="menu">
+                <img class="logo" src="https://www.ramadasakarya.com/img/site/logo.png"/>
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -69,9 +70,17 @@
                     </li>
                     <li class="menu-li">
                         <a href="" class="menu-button">Toplantı</a> 
+                        <ul class="menu-ul flex-direction-column">
+                            <li class="menu-li">
+                                <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
+                            </li>
+                            <li class="menu-li">
+                                <a href="#" id="md-trigger" class="menu-button">Toplanti Teklif Formu</a> 
+                            </li>
+                        </ul> 
                     </li>
                     <li class="menu-li">
-                        <a href="" class="menu-button">İletişim</a> 
+                        <a href="./iletisim.php" class="menu-button">İletişim</a> 
                     </li>
                 </ul>
             </div>
@@ -86,20 +95,19 @@
                 <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
             </div>
         </header>
-       
         <div class="content other-page">
             <div class="content-underline"></div>
             <div class="content-mid">
                 <div class="restourant-menu">
-                    <div class="restourant-menu-item md-menu-trigger" >
+                    <div class="restourant-menu-item md-menu-trigger">
                         <img class="menu-image" src="https://bungalov-test-website.000webhostapp.com/assets/images/food/1.PNG"/>
                         <h5 class="menu-item-header">Kirmizi Salatali Pankek<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item md-menu-trigger" >
+                    <div class="restourant-menu-item md-menu-trigger">
                         <img class="menu-image" src="https://img-global.cpcdn.com/recipes/f7d16ad682b8642a/680x482cq70/sourdough-pancake-with-raspberries-soft-serve-jam-recipe-main-photo.webp"/>
                         <h5 class="menu-item-header">Pankek<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item md-menu-trigger" >
+                    <div class="restourant-menu-item md-menu-trigger">
                         <img class="menu-image" src="https://www.happyfoodstube.com/wp-content/uploads/2020/01/healthy-greek-yogurt-breakfast-bowl.jpg"/>
                         <h5 class="menu-item-header">Yogur Salatasi<div class="menu-item-header-right"></div></h5>
                     </div>
@@ -187,12 +195,103 @@
                         <div class="md-price-curency">TL</div>
                     </div>
                     <div class="md-menu-item-header">Açık Büfe Kahvaltı</div>
-                    <div class="md-menu-item-info" ></div>
+                    <div class="md-menu-item-info"></div>
                 </div>
                 <div class="md-menu-line"></div>
                 <div class="md-right">
                     <button id="md-close" class="btn btn-light">Kapat</button>
                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="md-modal md-effect-12">
+            <div class="md-content">
+                <div class="modal-content">
+                    <h3 class="modal-header">Toplantı & Davet</h3>
+                    <form class="modal-form">
+                        <div class="modal-grid-item-1"> 
+                            <label class="form-label" >Etkinlik Turu</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-2">
+                            <label class="form-label" >Etkinlik Tarihi:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-3"> 
+                            <label class="form-label" >Etkinlik Adı:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-4">
+                            <label class="form-label" >Kişi Sayısı:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-5"> 
+                            <label class="form-label" >Kurum Adı:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-6">
+                            <label class="form-label" >Göreviniz:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-7">
+                            <div class="checkbox-content">
+                                <label class="form-checkbox-container">Kokteyl
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Düğün
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Öğle Yemeği
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Yarım Gün Toplantı
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-grid-item-8">
+                            <div class="checkbox-content">
+                                <label class="form-checkbox-container">Gala Yemeği
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Salon
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Akşam Yemeği
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="form-checkbox-container">Kira
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-grid-item-9">
+                            <label class="form-label" >Ad - Soyad:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-10">
+                            <label class="form-label" >Email:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-11">
+                            <label class="form-label" >Telefon:</label>
+                            <input class="form-input" />
+                        </div>
+                        <div class="modal-grid-item-12">
+                            <button class="btn btn-success">Gonder</button>
+                        </div>
+                        <div class="modal-grid-item-13">
+                            <button id="md-close-tp" class="btn btn-light">Kapat</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -225,6 +324,16 @@
                 
                 $('#md-close').on('click', function() {
                     $('.menu-modal').removeClass('md-show');
+                });
+            });
+
+            $(function () {
+                $('#md-trigger').on('click', function() {
+                    $('.md-modal').addClass('md-show');
+                });
+                
+                $('#md-close-tp').on('click', function() {
+                    $('.md-modal').removeClass('md-show');
                 });
             });
         </script>

@@ -86,7 +86,7 @@
                         </ul> 
                     </li>
                     <li class="menu-li">
-                        <a href="" class="menu-button">İletişim</a> 
+                        <a href="./iletisim.php" class="menu-button">İletişim</a> 
                     </li>
                 </ul>
             </div>
@@ -407,10 +407,11 @@
                 </div>
             </div>
         </div>
+        <!-- <div class="md-overlay"></div> -->
         <div class="md-overlay"></div>
         <script src="assets/datepicker/js/datepicker.min.js"></script>
         <script src="assets/datepicker/js/locales/tr.js"></script>
-          <script>
+        <script>
                 new Splide( '.splide',{  
                     type   : 'loop',
                     perPage: 1,
