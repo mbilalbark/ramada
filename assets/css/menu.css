@@ -94,14 +94,15 @@
     font-size: 16px;
 }
 
-.menu-modal{
+.menu-modal {
+    height: 650px !important;
     margin: auto;
 	position: fixed;
-	top: 100px;
+	top: 80px;
 	left: 0;
     right: 0;
 	width: 50%;
-	max-width: 630px;
+	max-width: 860px !important;
 	min-width: 320px;
 	height: auto;
 	z-index: 2000;
@@ -117,18 +118,22 @@
 }
 
 .menu-item{
+    margin-top: 30px;
+    margin-left: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 20px;
 }
 
 .md-menu-price{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .md-price-number{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 1000;
     color:rgb(45, 45, 45);
     font-family:'Poppins', sans-serif;;
 }
@@ -137,6 +142,7 @@
     font-size: 10px;
     color:rgb(73, 73, 73);
     font-family:'Poppins', sans-serif;;
+    margin-top: 40px;
 }
 
 .md-menu-item-header{
@@ -145,14 +151,27 @@
     font-family:'Poppins', sans-serif;;
 }
 .md-menu-item-info{
-    font-size: 14px;
+    font-size: 10px;
     color:rgb(73, 73, 73);
     font-family:'Poppins', sans-serif;;
 }
 
+.md-menu-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
 .md-menu-line{
     width: 90%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 20px;
     height: 1px;
+    background-color: rgb(205, 205, 205);
+}
+
+.md-right{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 50px;
 }

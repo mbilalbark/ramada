@@ -7,8 +7,8 @@
             <description>
 
             </description>
-            <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/menu.css">
+            <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/other-pages.css">
             <link rel="stylesheet" href="assets/splide-4.1.3/dist/css/splide.min.css">
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
@@ -91,27 +91,27 @@
             <div class="content-underline"></div>
             <div class="content-mid">
                 <div class="restourant-menu">
-                    <div class="restourant-menu-item" id="md-menu-trigger">
+                    <div class="restourant-menu-item md-menu-trigger" >
                         <img class="menu-image" src="https://bungalov-test-website.000webhostapp.com/assets/images/food/1.PNG"/>
                         <h5 class="menu-item-header">Kirmizi Salatali Pankek<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" id="md-menu-trigger">
+                    <div class="restourant-menu-item md-menu-trigger" >
                         <img class="menu-image" src="https://img-global.cpcdn.com/recipes/f7d16ad682b8642a/680x482cq70/sourdough-pancake-with-raspberries-soft-serve-jam-recipe-main-photo.webp"/>
                         <h5 class="menu-item-header">Pankek<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" id="md-menu-trigger">
+                    <div class="restourant-menu-item md-menu-trigger" >
                         <img class="menu-image" src="https://www.happyfoodstube.com/wp-content/uploads/2020/01/healthy-greek-yogurt-breakfast-bowl.jpg"/>
                         <h5 class="menu-item-header">Yogur Salatasi<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" id="md-menu-trigger">
+                    <div class="restourant-menu-item md-menu-trigger" >
                         <img class="menu-image" src="http://images.ctfassets.net/lufu0clouua1/3qcLXH3uOcEMue28yEE2ki/6a62eabf42b81cb73a756335ac214fa5/Raspberry-Brie-Grilled-Cheese-Sandwich.jpg"/>
                         <h5 class="menu-item-header">Orman Meyveli Sandvic<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" id="md-menu-trigger">
+                    <div class="restourant-menu-item md-menu-trigger" >
                         <img class="menu-image" src="https://img.freepik.com/premium-photo/chilled-cucumber-microgreen-soup-large-glasses_219795-1371.jpg?w=1380"/>
                         <h5 class="menu-item-header">Yesil Corba<div class="menu-item-header-right"></div></h5>
                     </div>
-                    <div class="restourant-menu-item" id="md-menu-trigger">
+                    <div class="restourant-menu-item md-menu-trigger" >
                         <img class="menu-image" src="https://img.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-meat-tomatoes-decorated-with-pea-sprouts-dark-table_2829-3412.jpg?w=1380"/>
                         <h5 class="menu-item-header">Soslu Makarna<div class="menu-item-header-right"></div></h5>
                     </div>
@@ -119,43 +119,7 @@
                 <div class="content-footer"></div>
             </div>
         </div>
-        <div class="menu-modal md-effect-12">
-            <div class="md-content">
-                <div class="modal-content">
-                <div class="menu-item">
-                    <div class="md-menu-price">
-                        <div class="md-price-number">150.00</div>
-                        <div class="md-price-curency">TL</div>
-                    </div>
-                    <div class="md-menu-item-header">Kahvaltı tabağı / Breakfast plate</div>
-                    <div class="md-menu-item-info" >Ezine Peynir,Kaşar Peynir, Çeçil Peynir, Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, Bal, Kaymak, Roka, Kuru Kayısı, Çikolatalı Fındık Krema, Acuka, Patates Kızartması, Pişi,
-                         Sigara Böreği, Haşlanmış Yumurta, Yıldız Sosis, Poğaça ve Ekmek.</div>
-                </div>
-                <div class="md-menu-line"></div>
-                <div class="menu-item">
-                    <div class="md-menu-price">
-                        <div class="md-price-number">300.00</div>
-                        <div class="md-price-curency">TL</div>
-                    </div>
-                    <div class="md-menu-item-header">Kahvaltı tabağı / Breakfast plate</div>
-                    <div class="md-menu-item-info" >Ezine Peynir,Kaşar Peynir, Çeçil Peynir, Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, Bal, Kaymak, Roka, Kuru Kayısı, Çikolatalı Fındık Krema, Acuka, Patates Kızartması, Pişi,
-                         Sigara Böreği, Haşlanmış Yumurta, Yıldız Sosis, Poğaça ve Ekmek.</div>
-                </div>
-                <div class="md-menu-line"></div>
-                <div class="menu-item">
-                    <div class="md-menu-price">
-                        <div class="md-price-number">300.00</div>
-                        <div class="md-price-curency">TL</div>
-                    </div>
-                    <div class="md-menu-item-header">Açık Büfe Kahvaltı</div>
-                    <div class="md-menu-item-info" ></div>
-                </div>
-                <div class="md-menu-line"></div>
-                </div>
 
-            </div>
-        </div>
-        <div class="md-overlay"></div>
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
@@ -190,7 +154,49 @@
                 </div>
             </div>
         </footer>
-
+        <div class="menu-modal md-effect-12">
+            <div class="md-content">
+                <div class="modal-content">
+                <div class="menu-item">
+                    <div class="md-menu-price">
+                        <div class="md-price-number">150.00</div>
+                        <div class="md-price-curency">TL</div>
+                    </div>
+                    <div class="md-menu-info">
+                        <div class="md-menu-item-header">Kahvaltı tabağı / Breakfast plate</div>
+                        <div class="md-menu-item-info" >Ezine Peynir,Kaşar Peynir, Çeçil Peynir, Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, Bal, Kaymak, Roka, Kuru Kayısı, Çikolatalı Fındık Krema, Acuka, Patates Kızartması, Pişi,
+                         Sigara Böreği, Haşlanmış Yumurta, Yıldız Sosis, Poğaça ve Ekmek.</div>
+                    </div>
+                </div>
+                <div class="md-menu-line"></div>
+                <div class="menu-item">
+                    <div class="md-menu-price">
+                        <div class="md-price-number">300.00</div>
+                        <div class="md-price-curency">TL</div>
+                    </div>
+                    <div class="md-menu-info">
+                        <div class="md-menu-item-header">Kahvaltı tabağı / Breakfast plate</div>
+                        <div class="md-menu-item-info" >Ezine Peynir,Kaşar Peynir, Çeçil Peynir, Piliç Jambon, Dana Macar Salam, Çilek Reçeli, Zeytin(2 Çeşit), Çeri Domates, Salatalık, Tereyağı, Bal, Kaymak, Roka, Kuru Kayısı, Çikolatalı Fındık Krema, Acuka, Patates Kızartması, Pişi,
+                         Sigara Böreği, Haşlanmış Yumurta, Yıldız Sosis, Poğaça ve Ekmek.</div>
+                    </div>
+                </div>
+                <div class="md-menu-line"></div>
+                <div class="menu-item">
+                    <div class="md-menu-price">
+                        <div class="md-price-number">300.00</div>
+                        <div class="md-price-curency">TL</div>
+                    </div>
+                    <div class="md-menu-item-header">Açık Büfe Kahvaltı</div>
+                    <div class="md-menu-item-info" ></div>
+                </div>
+                <div class="md-menu-line"></div>
+                <div class="md-right">
+                    <button id="md-close" class="btn btn-light">Kapat</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="md-overlay"></div>
         <script>
              $(function() {
                 $('#datepicker1').datepicker({
@@ -213,7 +219,7 @@
                 });
             })
             $(function () {
-                $('#md-menu-trigger').on('click', function() {
+                $('.md-menu-trigger').on('click', function() {
                     $('.menu-modal').addClass('md-show');
                 });
                 

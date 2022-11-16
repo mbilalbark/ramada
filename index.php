@@ -10,11 +10,13 @@
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/splide-4.1.3/dist/css/splide.min.css">
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
+            <link rel="stylesheet" href="assets/css/icon-set-1.css">
+            <link rel="stylesheet" href="assets/css/icon-set-2.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
             <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
             <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
             <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
             <link href='https://css.gg/css' rel='stylesheet'>
-      
             <!-- For Bulma -->
             <link href="assets/datepicker/css/datepicker-bulma.css" rel="stylesheet" />
             <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.css">
@@ -177,10 +179,14 @@
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
+                                <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
                             </div>
                             <div class="under-line"></div>
                           <a href="./oda-detay.php" class="room-detail-button">Detay</a>
@@ -395,7 +401,7 @@
                             <button class="btn btn-success">Gonder</button>
                         </div>
                         <div class="modal-grid-item-13">
-                            <button id="md-close" class="btn btn-danger">Kapat</button>
+                            <button id="md-close" class="btn btn-light">Kapat</button>
                         </div>
                     </form>
                 </div>
