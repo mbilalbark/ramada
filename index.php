@@ -70,7 +70,7 @@
                                 <a href="./ramada-restoran-menu.php" class="menu-button">Restoran Menu</a> 
                             </li>
                             <li class="menu-li">
-                                <a href="#" class="menu-button">Mini Bar</a> 
+                                <a href="./minibar.php" class="menu-button">Mini Bar</a> 
                             </li>
                         </ul> 
                     </li>
