@@ -14,8 +14,10 @@
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
             <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
             <!-- <link rel="stylesheet" href="https://resources/demos/style.css"> -->
-            
+            <link href="assets/datepicker/css/datepicker-bulma.css" rel="stylesheet" />
             <link href='https://css.gg/css' rel='stylesheet'>
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.css">
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma-tooltip@3.0.2/dist/css/bulma-tooltip.min.css">
             <link rel="stylesheet" href="assets/owl/assets/owl.carousel.min.css">  </link>
     </head>
     <body>
@@ -96,7 +98,6 @@
                 <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
             </div>
         </header>
-       
         <div class="content other-page">
                 <div class="room-cascader">
                     <div class="owl-carousel owl-theme">
@@ -189,48 +190,57 @@
                         </div>
                     </div>
                     <h2 class="room-detail-features-title">Rezervasyon</h2>
-                    <div class="room-detail-rezervation">
-                      
-                        <form class="booking-form">
-                            <div class="form-item">
-                                <div class="form-item-icon">
-                                    <span class="form-icon gg-calendar-dates"></span>
-                                </div>
-                                <div class="form-item-info">Giriş</div>
-                                <input class="form-item-date" type="text" id="datepicker1">
+                    <div class="room-detail-rezervation">       
+                    <form class="booking-form">
+                <div class="form-item form-item-bg-1">
+                    <div class="form-item-info">Giriş Tarihi</div>
+                    <div class="form-item-icon-info">  
+                            <input class="form-item-date" type="text" id="datepicker1">
+                            <div class="form-item-icon">
+                                <i class="fa-solid fa-calendar-days icon-color3"></i>   
                             </div>
-                            <div class="form-item">
-                                <div class="form-item-icon">
-                                    <span class="form-icon gg-calendar-dates"></span>
-                                </div>
-                                <div class="form-item-info">Cıkış</div>
-                                <input class="form-item-date" type="text" id="datepicker2">
+                    </div>
+                </div>
+                <div class="form-item form-item-bg-2">
+                    <div class="form-item-info">Cıkış Tarihi</div>
+                    <div class="form-item-icon-info">  
+                            <input class="form-item-date" type="text" id="datepicker2">
+                            <div class="form-item-icon">
+                                <i class="fa-solid fa-calendar-days icon-color3"></i>   
                             </div>
-                            <div class="form-item">
-                                <div class="form-item-icon">
-                                    <span class="form-icon gg-home"></span>
-                                </div>
-                                <div class="form-item-info">Oda</div>
-                                <input class="form-item-count" type="text">
+                    </div>
+                </div>
+                <div class="form-item form-item-bg-1">
+                    <div class="form-item-info">Oda</div>
+                    <div class="form-item-icon-info">  
+                        <input class="form-item-count" type="text" value="1">
+                        <div class="form-item-icon">
+                            <i class="fa-solid fa-home icon-color3"></i>   
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item form-item-bg-2">
+                    <div class="form-item-info">Yetişkin</div>
+                    <div class="form-item-icon-info">  
+                            <input class="form-item-count" type="text" value="0">
+                            <div class="form-item-icon">
+                                <i class="fa-solid fa-user icon-color3"></i>
                             </div>
-                            <div class="form-item">
-                                <div class="form-item-icon">
-                                    <span class="form-icon gg-profile"></span>
-                                </div>
-                                <div class="form-item-info">Yetişkin</div>
-                                <input class="form-item-count" type="text">
+                    </div>
+                </div>
+                <div class="form-item form-item-bg-1">
+                    <div class="form-item-info">Çocuk</div>
+                    <div class="form-item-icon-info">  
+                            <input class="form-item-count" type="text" value="0">
+                            <div class="form-item-icon">
+                                <i class="fa-solid fa-child icon-color3"></i>
                             </div>
-                            <div class="form-item">
-                                <div class="form-item-icon">
-                                    <span class="form-icon gg-boy"></span>
-                                </div>
-                                <div class="form-item-info">Çocuk</div>
-                                <input class="form-item-count" type="text">
-                            </div>
-                            <div class="form-item">
-                                <button class="form-button">Rezervasyon</button>
-                            </div>
-                        </form>
+                    </div>
+                </div>
+                <div class="form-item fb">
+                    <button class="form-button ">Rezervasyon</button>
+                </div>
+            </form>
                     </div>
                 </div>
             </div>
@@ -365,14 +375,56 @@
             <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
             <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
             <script src="assets/owl/owl.carousel.min.js"></script>
+            <script src="assets/datepicker/js/datepicker.min.js"></script>
+            <script src="assets/datepicker/js/locales/tr.js"></script>
          <script>
              $(function() {
-                $('#datepicker1').datepicker({
-                    uiLibrary: 'bootstrap'
-                });
-                $('#datepicker2').datepicker({
-                    uiLibrary: 'bootstrap'
-                });
+                const datePickerOne = document.getElementById("datepicker1");
+            const datePickerTwo = document.getElementById("datepicker2");
+            const dateNow = Date.now();
+            const datePickOne = new Datepicker(datePickerOne, {
+                autohide: true,
+                minDate: dateNow,
+                language:"tr",
+                defaultViewDate: dateNow,
+                format: {
+                    toValue(date, format, locale) {
+                        let dateObject;
+                        return dateObject;
+                    },
+                    toDisplay(date, format, locale) {
+                        return date.getDate() + " " + locale.months[date.getMonth()] + " " + date.getFullYear();
+                    }
+                },
+            });
+            datePickOne.setDate(dateNow)
+            const datePickTwo = new Datepicker(datePickerTwo, {
+                autohide: true,
+                minDate: dateNow,
+                language:"tr",
+                format: {
+                    toValue(date, format, locale) {
+                        let dateObject;
+                        return dateObject;
+                    },
+                    toDisplay(date, format, locale) {
+                        return date.getDate() + " " + locale.months[date.getMonth()] + " " + date.getFullYear();
+                    }
+                },
+            });
+            datePickTwo.setDate(dateNow)
+            $(window).scroll(function() {    
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 200) {
+                    $(".menu").addClass("scrolling");
+                    $(".menu-button").addClass("menu-button-s");
+                } else {
+                    $(".menu").removeClass("scrolling");
+                    $(".menu-button").removeClass("menu-button-s");
+                }
+            });
+
 
                 $('.owl-carousel').owlCarousel({
                     margin:10,

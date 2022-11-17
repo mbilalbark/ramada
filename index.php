@@ -204,10 +204,14 @@
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
+                                <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
                             </div>
                             <div class="under-line"></div>
                           <a href="./oda-detay.php" class="room-detail-button">Detay</a>
@@ -225,10 +229,14 @@
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
+                                <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
                             </div>
                             <div class="under-line"></div>
                           <a href="./oda-detay.php" class="room-detail-button">Detay</a>
@@ -246,10 +254,14 @@
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
+                                <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
                             </div>
                             <div class="under-line"></div>
                           <a href="./oda-detay.php" class="room-detail-button">Detay</a>
@@ -268,10 +280,14 @@
                                 <div class="under-line"></div>
                             </div>
                             <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
+                                <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
                             </div>
                             <div class="under-line"></div>
                           <a href="./oda-detay.php" class="room-detail-button">Detay</a>

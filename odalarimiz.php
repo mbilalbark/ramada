@@ -2,7 +2,7 @@
 <!DOCTYPE html>
     <head>
             <title>
-                Odalarimiz
+                Odalarımız
             </title>
             <description>
 
@@ -13,6 +13,9 @@
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
             <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
             <!-- <link rel="stylesheet" href="https://resources/demos/style.css"> -->
+            <link rel="stylesheet" href="assets/css/icon-set-1.css">
+            <link rel="stylesheet" href="assets/css/icon-set-2.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
             <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
             <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
             <link href='https://css.gg/css' rel='stylesheet'>
@@ -88,7 +91,7 @@
                     Odalarımız
                 </h1>
                 <h3> 
-                    Anasayfa / Odalarimiz
+                    Anasayfa / Odalarımız
                 </h3>
             </div>
             <div class="header-image-up">
@@ -98,119 +101,139 @@
        
         <div class="content other-page">
             <div class="content-underline"></div>
-            <div class="content-mid">
-            <div class="room-list">
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/11.jpg"/>
+                <div class="content-mid">
+                    <div class="room-list">
+                            <div class="room-list-item">
+                                <div class="zoom-effect-container">
+                                    <div class="image-card">
+                                        <img class="room-list-item-image" src="assets/images/11.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="room-list-item-info">
+                                    <div class="room-list-item-title">
+                                        Bungalov Sky 
+                                        <div class="under-line"></div>
+                                    </div>
+                                    <div class="room-list-item-icons">
+                                        <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                        <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                        <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                        <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                        <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                        <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                        <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                        <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
+                                    </div>
+                                    <div class="under-line"></div>
+                                <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                                </div>
+                            </div>
+                            <div class="room-list-item">
+                                <div class="zoom-effect-container">
+                                    <div class="image-card">
+                                        <img class="room-list-item-image" src="assets/images/03.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="room-list-item-info">
+                                    <div class="room-list-item-title">
+                                        Bungalov Delux 
+                                        <div class="under-line"></div>
+                                    </div>
+                                    <div class="room-list-item-icons">
+                                        <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                        <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                        <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                        <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                        <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                        <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                        <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                        <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
+                                    </div>
+                                    <div class="under-line"></div>
+                                <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                                </div>
+                            </div>
+                            <div class="room-list-item">
+                                <div class="zoom-effect-container">
+                                    <div class="image-card">
+                                        <img class="room-list-item-image" src="assets/images/07.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="room-list-item-info">
+                                    <div class="room-list-item-title">
+                                        Bungalov Turkuaz 
+                                        <div class="under-line"></div>
+                                    </div>
+                                    <div class="room-list-item-icons">
+                                        <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                        <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                        <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                        <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                        <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                        <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                        <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                        <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
+                                    </div>
+                                    <div class="under-line"></div>
+                                <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                                </div>
+                            </div>
+                            <div class="room-list-item">
+                                <div class="zoom-effect-container">
+                                    <div class="image-card">
+                                        <img class="room-list-item-image" src="https://cdn.tatilsepeti.com/Files/Images/Tesis/07216/450x300/tsr07216637295613979922217.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="room-list-item-info">
+                                    <div class="room-list-item-title">
+                                    Bungalov Silver
+                                        <div class="under-line"></div>
+                                    </div>
+                                    <div class="room-list-item-icons">
+                                        <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                        <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                        <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                        <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                        <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                        <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                        <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                        <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
+                                    </div>
+                                    <div class="under-line"></div>
+                                <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                                </div>
+                                
+                            </div>
+                            <div class="room-list-item">
+                                <div class="zoom-effect-container">
+                                    <div class="image-card">
+                                        <img class="room-list-item-image" src="assets/images/08.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="room-list-item-info">
+                                    <div class="room-list-item-title">
+                                    Bungalov Gold
+                                        <div class="under-line"></div>
+                                    </div>
+                                    <div class="room-list-item-icons">
+                                        <span tooltip="Buyuk Yatak" ><i class="icon_set_2_icon-104 room-detail-icon"></i></span> 
+                                        <span tooltip="Ek Yatak" > <i class="icon_set_2_icon-112 room-detail-icon"></i></span> 
+                                        <span tooltip="Tekli Tatak" >  <i class="icon_set_2_icon-114 room-detail-icon"></i></span> 
+                                        <span tooltip="Elektronik Kasa" >  <i  class="icon_set_2_icon-106 room-detail-icon"></i></span> 
+                                        <span tooltip="LED Tv" > <i  class="icon_set_2_icon-116 room-detail-icon"></i></span> 
+                                        <span tooltip="Dus" > <i  class="icon_set_2_icon-118 oom-detail-icon"></i></span> 
+                                        <span tooltip="Kahve ve Cay Setup" > <i class="icon_set_1_icon-59 room-detail-icon"></i></span> 
+                                        <span tooltip="Wifi" ><i  class="icon_set_1_icon-86 room-detail-icon"></i></span> 
+                                    </div>
+                                    <div class="under-line"></div>
+                                <a href="./oda-detay.php" class="room-detail-button">Detay</a>
+                                </div>
+                                
                             </div>
                         </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                                Bungalov Sky 
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                            <a href="./oda-detay.php" class="room-detail-button">Detay</a>
-                        </div>
-                    </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/03.jpg"/>
-                            </div>
-                        </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                                Bungalov Delux 
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
-                        </div>
-                    </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/07.jpg"/>
-                            </div>
-                        </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                                 Bungalov Turkuaz 
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
-                        </div>
-                    </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="https://cdn.tatilsepeti.com/Files/Images/Tesis/07216/450x300/tsr07216637295613979922217.jpg"/>
-                            </div>
-                        </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                            Bungalov Silver
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
-                        </div>
-                        
-                    </div>
-                    <div class="room-list-item">
-                        <div class="zoom-effect-container">
-                            <div class="image-card">
-                                <img class="room-list-item-image" src="assets/images/08.jpg"/>
-                            </div>
-                        </div>
-                        <div class="room-list-item-info">
-                            <div class="room-list-item-title">
-                            Bungalov Gold
-                                <div class="under-line"></div>
-                            </div>
-                            <div class="room-list-item-icons">
-                                <span class="room-list-item-icon form-icon gg-phone"></span>
-                                <span class="room-list-item-icon form-icon gg-tv"></span>
-                                <span class="room-list-item-icon form-icon gg-music-speaker"></span>
-                                <span class="room-list-item-icon form-icon gg-glass"></span>
-                            </div>
-                            <div class="under-line"></div>
-                          <a href="./oda-detay.php" class="room-detail-button">Detay</a>
-                        </div>
-                        
-                    </div>
+                    <div class="content-footer"></div>
                 </div>
             </div>
-            <div class="content-footer"></div>
-        </div>
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
