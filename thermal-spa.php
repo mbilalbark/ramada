@@ -20,7 +20,7 @@
     <body>
         <header class="header">
             <div class="menu">
-                <img class="logo" src="https://www.ramadasakarya.com/img/site/logo.png"/>
+                <img class="logo" src="assets/images/logo.jpeg"/>
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -102,18 +102,46 @@
                     <h2 class="text-content-header">
                         THERMAL SPA
                     </h2>
-                    <p class="mini-content">
-                    Alanlarında uzman, tecrübeli, samimi, sempatik ekibimiz sizleri yaşamın tüm stresli anlarından uzaklaştıracak, kişiye özel bakımlarla, hem bedeninizi  hem de ruhunuzu dinlendirecek. Uzakdoğu' nun egzotik SPA keyfini Ramada Resort Thermal  Sapanca  farkıyla yaşayın.
-                    </br></br>
-                    1 Adet Ortak 1 Adet Bayanlara özel açık havuz keyfiniTermal suyumuz Türkiye de en değerli minerallere sahiptir,  size sağlık getirecek termal havuzlarımız ve jakuzilerimiz de rahatlayabilir, hamam, sauna, ve buhar odası aktivitelerimizle tatilinizi doyasıya yaşayabilirsiniz
-                    </br></br>
-                    </br></br>Kişisel bakım ve masaj odalarımızda, anti-stresten selülite , lokal ağrılardan, cilt sorunlarına kadar her türlü sorununuzu size özel hazırlanan programlarımız ile çözecek, sağlık ve güzellik hizmeti sunuyoruz.
-                    </br></br>Ramada Resort Thermal  Sapanca  bulunduğu bölgenin ihtiyaçlarına karşılık gelecek konsepti ile tüm ıslak alanlarda bayan-erkek ayrı olmak üzere siz kıymetli misafirlerimizin hizmetine sunulmuştur.
-                    </br></br>Ramada Resort Thermal  Sapanca  kalitesini yaşamak için sizleride bekleriz.
-    
-                </p>
-                   
-                   
+                    <div class="text-content-detail">
+                        <p class="mini-content">
+                             Alanlarında uzman, tecrübeli, samimi, sempatik ekibimiz sizleri yaşamın tüm stresli anlarından uzaklaştıracak, kişiye özel bakımlarla, hem bedeninizi  hem de ruhunuzu dinlendirecek. Uzakdoğu' nun egzotik SPA keyfini Ramada Resort Thermal  Sapanca  farkıyla yaşayın.
+                        </p>
+                            <div class="text-content-detail-item"> 
+                                <div class="item-part"> 
+                                    <div class="vertical-line"></div>
+                                    <div class="item-part-text">
+                                        <h3 class="part-header">Termal Havuz</h3>
+                                        <p class="part-content">
+                                        1 Adet Ortak 1 Adet Bayanlara özel açık havuz keyfiniTermal suyumuz Türkiye de en değerli minerallere sahiptir,  size sağlık getirecek termal havuzlarımız ve jakuzilerimiz de rahatlayabilir, hamam, sauna, ve buhar odası aktivitelerimizle tatilinizi doyasıya yaşayabilirsiniz
+                                    </p>
+                                    </div>
+                                    <div class="vertical-line"></div>
+                                </div>
+                                <div class="item-part"> 
+                                    <img class="part-img" src="assets/images/termal.jpg" />
+                                </div>
+                            </div>
+                            <div class="text-content-detail-item"> 
+                                <div class="item-part"> 
+                                    <img class="part-img" src="assets/images/masaj.jpg" />
+                                </div>
+                                <div class="item-part"> 
+                                    <div class="vertical-line"></div>
+                                    <div class="item-part-text">
+                                        <h3 class="part-header">Kisisel Bakim</h3>
+                                        <p class="part-content">
+                                        </br></br>Kişisel bakım ve masaj odalarımızda, anti-stresten selülite , lokal ağrılardan, cilt sorunlarına kadar her türlü sorununuzu size özel hazırlanan programlarımız ile çözecek, sağlık ve güzellik hizmeti sunuyoruz.                                  
+                                    </p>
+                                    </div>
+                                    <div class="vertical-line"></div>
+                                </div>
+                                
+                            </div>
+                            <p class="mini-content">
+                                </br></br>Ramada Resort Thermal  Sapanca  bulunduğu bölgenin ihtiyaçlarına karşılık gelecek konsepti ile tüm ıslak alanlarda bayan-erkek ayrı olmak üzere siz kıymetli misafirlerimizin hizmetine sunulmuştur.
+                                </br></br>Ramada Resort Thermal  Sapanca  kalitesini yaşamak için sizleride bekleriz.
+                            </p>
+                    </div>
             </div>
             <div class="content-footer"></div>
         </div>
@@ -121,7 +149,7 @@
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
-                    <img class="footer-logo" src="https://www.ramadasakarya.com/img/site/logo.png" />
+                    <img class="footer-logo" src="assets/images/logo.jpeg" />
                     <div class="footer-mini-address">
                         Güllük Mah. Adnan Menderes Cad. No:145
                         Adapazarı / Sakarya</div>

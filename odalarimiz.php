@@ -23,7 +23,7 @@
     <body>
         <header class="header">
             <div class="menu">
-                <img class="logo" src="https://www.ramadasakarya.com/img/site/logo.png"/>
+                <img class="logo" src="assets/images/logo.jpeg"/>
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -237,7 +237,7 @@
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
-                    <img class="footer-logo" src="https://www.ramadasakarya.com/img/site/logo.png" />
+                    <img class="footer-logo" src="assets/images/logo.jpeg" />
                     <div class="footer-mini-address">
                         Güllük Mah. Adnan Menderes Cad. No:145
                         Adapazarı / Sakarya</div>

@@ -25,7 +25,7 @@
     <body>
         <header class="header">
             <div class="menu">
-                <img class="logo" src="https://www.ramadasakarya.com/img/site/logo.png"/>
+                <img class="logo" src="assets/images/logo.jpeg"/>
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -120,36 +120,49 @@
                     <div class="text-content-detail"> 
                         <div class="text-content-detail-item"> 
                             <div class="item-part"> 
-                                <h3 class="part-header">Kusursuz ve Göz Alıcı</h3>
-                                <p class="part-content">Kendinizi Evinizde hissedeceğiniz ; Modern çizgilerin kullanıldığı, 
+                                <div class="vertical-line"></div>
+                                <div class="item-part-text">
+                                    <h3 class="part-header">Kusursuz ve Göz Alıcı</h3>
+                                    <p class="part-content">Kendinizi Evinizde hissedeceğiniz ; Modern çizgilerin kullanıldığı, 
                                     <b>Sıklığın ve Zerafetin</b> buluştuğu Ramada By Wyndham Sakarya değerli misafirlerine muhteşem bir deneyim sunuyor.</p>
+                                </div>
+                                <div class="vertical-line"></div>
                             </div>
                             <div class="item-part"> 
-                                <img class="part-img" src="https://www.ramadasakarya.com/img/hakkimizda/konsept.jpg" />
-                            </div>
-                        </div>
-                        <div class="text-content-detail-item"> 
-                            <div class="item-part"> 
-                                <img class="part-img" src="https://www.ramadasakarya.com/img/hakkimizda/oda.jpg" />
-                            </div>
-                            <div class="item-part"> 
-                                <h3 class="part-header">Geniş ve Ferah Odalar</h3>
-                                <p class="part-content">
-                                Misafir odalarımız rahat nefes alabileceğiniz, güne mutlu başlayacağınız uyumaktan keyif alacağınız şekilde tasarlanmıştır.<b> Ücretsiz Hızlı</b> Kablosuz internet ve birçok uluslar arası kanalı ücretsiz izleyebileceğiniz 
-                                <b>  akıllı televizyon</b>  ile değerli misafirlerin hoşça vakit geçireceği ve çalışabileceği konfordadır.
-                                </p>
+                                <img class="part-img" src="assets/images/kusursuz.jpg" />
                             </div>
                         </div>
                         <div class="text-content-detail-item"> 
                             <div class="item-part"> 
-                                <h3 class="part-header">Justinyen Spa Merkezi</h3>
-                                <p class="part-content">
-                                Değerli Misafirlerimizin ücretsiz faydalanabileceği Kapalı yüzme havuzu, Jakuzi , Türk hamamı, Sauna, Spor salonundan oluşmaktadır. Günün yorgunluğunu 
-                                atabilmeniz için uzman terapistlerce masajın keyfini çıkarabilirsiniz.
-                                </p>
+                                <img class="part-img" src="assets/images/genis.jpg" />
                             </div>
                             <div class="item-part"> 
-                                <img class="part-img" src="https://www.ramadasakarya.com/img/hakkimizda/spa.jpg" />
+                            <div class="vertical-line"></div>
+                                <div class="item-part-text">
+                                    <h3 class="part-header">Geniş ve Ferah Odalar</h3>
+                                    <p class="part-content">
+                                    Misafir odalarımız rahat nefes alabileceğiniz, güne mutlu başlayacağınız uyumaktan keyif alacağınız şekilde tasarlanmıştır.<b> Ücretsiz Hızlı</b> Kablosuz internet ve birçok uluslar arası kanalı ücretsiz izleyebileceğiniz 
+                                    <b>  akıllı televizyon</b>  ile değerli misafirlerin hoşça vakit geçireceği ve çalışabileceği konfordadır.
+                                    </p>
+                                </div>
+                                <div class="vertical-line"></div>
+                            </div>
+                        </div>
+                        <div class="text-content-detail-item">
+                     
+                            <div class="item-part"> 
+                                <div class="vertical-line"></div>
+                                <div class="item-part-text">
+                                    <h3 class="part-header">Justinyen Spa Merkezi</h3>
+                                    <p class="part-content">
+                                    Değerli Misafirlerimizin ücretsiz faydalanabileceği Kapalı yüzme havuzu, Jakuzi , Türk hamamı, Sauna, Spor salonundan oluşmaktadır. Günün yorgunluğunu 
+                                    atabilmeniz için uzman terapistlerce masajın keyfini çıkarabilirsiniz.
+                                    </p>
+                                </div>
+                                <div class="vertical-line"></div>
+                            </div>
+                            <div class="item-part"> 
+                                <img class="part-img" src="assets/images/spa.jpg" />
                             </div>
                         </div>
                     </div>
@@ -216,7 +229,7 @@
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
-                    <img class="footer-logo" src="https://www.ramadasakarya.com/img/site/logo.png" />
+                    <img class="footer-logo" src="assets/images/logo.jpeg" />
                     <div class="footer-mini-address">
                         Güllük Mah. Adnan Menderes Cad. No:145
                         Adapazarı / Sakarya</div>
