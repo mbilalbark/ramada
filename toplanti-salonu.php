@@ -90,7 +90,7 @@
             </div>
             <div class="page-title">
                 <h1>
-                    Hakkımızda
+                    Toplantı Salonları
                 </h1>
                 <h3> 
                     Anasayfa / Toplantı Salonları
@@ -115,50 +115,82 @@
                     <div class="text-content-detail"> 
                         <div class="text-content-detail-item"> 
                             <div class="item-part"> 
-                                <h3 class="part-header">Adapazarı Toplantı Salonu</h3>
-                                <p class="part-content">
-                                    15 Kişilik Kapasitesi ile mini toplantılar için, tasarlanmıştır. Toplantı salonumuz lobi katında bulunmaktadır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla sizlere şirket toplantılarınız, 
-                                    seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
-                                </p>
+                            <div class="vertical-line"></div>
+                                <div class="item-part-text">
+                                    <h3 class="part-header">Adapazarı Toplantı Salonu</h3>
+                                    <p class="part-content">
+                                        15 Kişilik Kapasitesi ile mini toplantılar için, tasarlanmıştır. Toplantı salonumuz lobi katında bulunmaktadır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla sizlere şirket toplantılarınız, 
+                                        seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
+                                    </p>
+                                </div>
+                                <div class="vertical-line"></div>
                             </div>
-                            <div class="item-part"> 
-                                <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/ad-toplanti.jpg" />
-                            </div>
-                        </div>
-                        <div class="text-content-detail-item"> 
-                            <div class="item-part"> 
-                                <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/tarakli-toplanti.jpg" />
-                            </div>
-                            <div class="item-part"> 
-                                <h3 class="part-header">Taraklı Toplantı Salonu</h3>
-                                <p class="part-content">
-                                    25 Kişilik Kapasitesi ile değerli misafirlerimize toplantı, seminer ve eğitim salonu olarak tasarlanmıştır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla sizlere şirket toplantılarınız, 
-                                    seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
-                                </p>
+                            <div class="item-part">
+                                <div class="zoom-effect-container-about">
+                                    <div class="image-card"> 
+                                        <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/ad-toplanti.jpg" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="text-content-detail-item"> 
                             <div class="item-part"> 
-                                <h3 class="part-header">Sapanca Toplantı Salonu</h3>
-                                <p class="part-content">
-                                    35 Kişilik Kapasitesi ile değerli misafirlerimize toplantı, seminer ve eğitim salonu olarak tasarlanmıştır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla 
-                                    sizlere şirket toplantılarınız, seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
-                                </p>
+                                <div class="zoom-effect-container-about">
+                                    <div class="image-card"> 
+                                        <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/tarakli-toplanti.jpg" />
+                                    </div>
+                                </div>
                             </div>
                             <div class="item-part"> 
-                                <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/sapanca-toplanti.jpg" />
+                            <div class="vertical-line"></div>
+                                <div class="item-part-text">
+                                    <h3 class="part-header">Taraklı Toplantı Salonu</h3>
+                                    <p class="part-content">
+                                        25 Kişilik Kapasitesi ile değerli misafirlerimize toplantı, seminer ve eğitim salonu olarak tasarlanmıştır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla sizlere şirket toplantılarınız, 
+                                        seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
+                                    </p>
+                                </div>
+                                <div class="vertical-line"></div>
                             </div>
                         </div>
                         <div class="text-content-detail-item"> 
                             <div class="item-part"> 
-                                <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/sakarya-balo.jpg" />
+                            <div class="vertical-line"></div>
+                                <div class="item-part-text">
+                                    <h3 class="part-header">Sapanca Toplantı Salonu</h3>
+                                    <p class="part-content">
+                                        35 Kişilik Kapasitesi ile değerli misafirlerimize toplantı, seminer ve eğitim salonu olarak tasarlanmıştır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla 
+                                        sizlere şirket toplantılarınız, seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
+                                    </p>
+                                </div>
+                                <div class="vertical-line"></div>
                             </div>
                             <div class="item-part"> 
-                                <h3 class="part-header">Sakarya Balo Salonu</h3>
-                                <p class="part-content">
-                                    500 Kişilik Kapasitesi ile değerli misafirlerimize düğün, nişan, kına, balo, toplantı, konferans, seminer ve eğitim salonu olarak tasarlanmıştır. Profesyonel ses-ışık ve görüntü ekipmanlarıyla sizlere profesyonel çözümler sunmaktadır. Ayrıca salonumuz 2 bölüme ses geçirmez paravan ile ayrılabilmektedir. 
-                                    150 kişilik toplantı, seminer ve eğitim salonu olarak da kullanılabilir.
-                                </p>
+                                <div class="zoom-effect-container-about">
+                                    <div class="image-card">
+                                        <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/sapanca-toplanti.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-content-detail-item"> 
+                            <div class="item-part">
+                                <div class="zoom-effect-container-about">
+                                    <div class="image-card"> 
+                                        <img class="part-img" src="https://www.ramadasakarya.com/img/toplanti/sakarya-balo.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-part"> 
+                            <div class="vertical-line"></div>
+                                <div class="item-part-text">
+                                    <h3 class="part-header">Sakarya Balo Salonu</h3>
+                                    <p class="part-content">
+                                        500 Kişilik Kapasitesi ile değerli misafirlerimize düğün, nişan, kına, balo, toplantı, konferans, seminer ve eğitim salonu olarak tasarlanmıştır. Profesyonel ses-ışık ve görüntü ekipmanlarıyla sizlere profesyonel çözümler sunmaktadır. Ayrıca salonumuz 2 bölüme ses geçirmez paravan ile ayrılabilmektedir. 
+                                        150 kişilik toplantı, seminer ve eğitim salonu olarak da kullanılabilir.
+                                    </p>
+                                </div>
+                            <div class="vertical-line"></div>s
                             </div>
                         </div>
                     </div>

@@ -95,7 +95,7 @@
                 </h3>
             </div>
             <div class="header-image-up">
-                <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
+                <img class="header-image" src="http://skttur.travelus.pro/assets/travelus/upload/files/Sapanca-ilgin-bungalov_IkKwnJc.jpeg"/>
             </div>
         </header>
        

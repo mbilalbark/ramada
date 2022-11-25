@@ -98,7 +98,7 @@
                 </h3>
             </div>
             <div class="header-image-up">
-                <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
+                <img class="header-image" src="https://www.sahilkampistanbul.com/modules/gallery/galleries/orman-koza-bungalov/IMG_F6E033-99E62B-A6F91C-FB3F41-6401D6-1C379B.jpg"/>
             </div>
         </header>
        

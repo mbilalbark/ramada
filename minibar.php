@@ -92,7 +92,7 @@
                     Anasayfa / Restoran / Mini Bar
             </div>
             <div class="header-image-up">
-                <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
+                <img class="header-image" src="https://www.plataran.com/patio-venue/wp-content/uploads/sites/14/2020/04/Copy-of-PAT_Botticeli.jpg"/>
             </div>
         </header>
         <div class="content other-page">

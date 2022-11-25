@@ -91,7 +91,7 @@
                     Anasayfa / THERMAL SPA
             </div>
             <div class="header-image-up">
-                <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
+                <img class="header-image" src="https://www.tatilvitrini.com/uploads/images/hotel/15788/WhatsApp_Image_2021_10_19_at_114332.jpeg"/>
             </div>
         </header>
        

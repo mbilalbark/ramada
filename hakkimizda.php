@@ -97,7 +97,7 @@
                 </h3>
             </div>
             <div class="header-image-up">
-                <img class="header-image" src="https://www.sapancakiyibungalov.com/media/images/arkaplan/kapakci.jpg"/>
+                <img class="header-image" src="https://www.sahilkampistanbul.com/modules/gallery/galleries/orman-koza-bungalov/IMG_5C298F-595261-2BCA6C-7C094A-5D2D6F-C389EF.jpg"/>
             </div>
         </header>
        
@@ -129,12 +129,20 @@
                                 <div class="vertical-line"></div>
                             </div>
                             <div class="item-part"> 
-                                <img class="part-img" src="assets/images/kusursuz.jpg" />
+                                <div class="zoom-effect-container-about">
+                                    <div class="image-card">
+                                        <img class="part-img" src="assets/images/kusursuz.jpg" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="text-content-detail-item"> 
                             <div class="item-part"> 
-                                <img class="part-img" src="assets/images/genis.jpg" />
+                                <div class="zoom-effect-container-about">
+                                    <div class="image-card">
+                                        <img class="part-img" src="assets/images/genis.jpg" />
+                                    </div>
+                                </div>
                             </div>
                             <div class="item-part"> 
                             <div class="vertical-line"></div>
@@ -162,7 +170,11 @@
                                 <div class="vertical-line"></div>
                             </div>
                             <div class="item-part"> 
-                                <img class="part-img" src="assets/images/spa.jpg" />
+                                <div class="zoom-effect-container-about">
+                                    <div class="image-card">
+                                        <img class="part-img" src="assets/images/spa.jpg" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
