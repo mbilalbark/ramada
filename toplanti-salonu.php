@@ -7,6 +7,7 @@
             <description>
 
             </description>
+            <meta content="width=device-width, initial-scale=1" name="viewport" />
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/other-pages.css">
             <link rel="stylesheet" href="assets/css/fontello.css">
@@ -17,15 +18,19 @@
 
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
             <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-            <!-- <link rel="stylesheet" href="https://resources/demos/style.css"> -->
             <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
             <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
             <link href='https://css.gg/css' rel='stylesheet'>
     </head>
     <body>
         <header class="header">
-            <div class="menu">
-                <img class="logo" src="assets/images/logo.jpeg"/>
+            <img class="logo" src="assets/images/logo.png"/>
+            <div class="menu" id="menuToggle">
+                <input type="checkbox" />
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+                
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -115,15 +120,15 @@
                     <div class="text-content-detail"> 
                         <div class="text-content-detail-item"> 
                             <div class="item-part"> 
-                            <div class="vertical-line"></div>
-                                <div class="item-part-text">
-                                    <h3 class="part-header">Adapazarı Toplantı Salonu</h3>
-                                    <p class="part-content">
-                                        15 Kişilik Kapasitesi ile mini toplantılar için, tasarlanmıştır. Toplantı salonumuz lobi katında bulunmaktadır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla sizlere şirket toplantılarınız, 
-                                        seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
-                                    </p>
-                                </div>
                                 <div class="vertical-line"></div>
+                                    <div class="item-part-text">
+                                        <h3 class="part-header">Adapazarı Toplantı Salonu</h3>
+                                        <p class="part-content">
+                                            15 Kişilik Kapasitesi ile mini toplantılar için, tasarlanmıştır. Toplantı salonumuz lobi katında bulunmaktadır. İhtiyaç duyulabilecek tüm ses-ışık ve görüntü ekipmanlarıyla sizlere şirket toplantılarınız, 
+                                            seminer ve konferans organizasyonlarınız için profesyonel çözümler sunmaktadır.
+                                        </p>
+                                    </div>
+                                    <div class="vertical-line"></div>
                             </div>
                             <div class="item-part">
                                 <div class="zoom-effect-container-about">
@@ -190,7 +195,7 @@
                                         150 kişilik toplantı, seminer ve eğitim salonu olarak da kullanılabilir.
                                     </p>
                                 </div>
-                            <div class="vertical-line"></div>s
+                            <div class="vertical-line"></div>
                             </div>
                         </div>
                     </div>
@@ -201,7 +206,7 @@
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
-                    <img class="footer-logo" src="assets/images/logo.jpeg" />
+                    <img class="footer-logo" src="assets/images/logo.png" />
                     <div class="footer-mini-address">
                         Güllük Mah. Adnan Menderes Cad. No:145
                         Adapazarı / Sakarya</div>

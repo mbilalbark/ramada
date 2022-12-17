@@ -7,6 +7,7 @@
             <description>
 
             </description>
+            <meta content="width=device-width, initial-scale=1" name="viewport" />
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/other-pages.css">
             <link rel="stylesheet" href="assets/splide-4.1.3/dist/css/splide.min.css">
@@ -19,8 +20,13 @@
     </head>
     <body>
         <header class="header">
-        <div class="menu">
-                <img class="logo" src="assets/images/logo.jpeg"/>
+            <img class="logo" src="assets/images/logo.png"/>
+            <div class="menu" id="menuToggle">
+                <input type="checkbox" />
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+                
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  

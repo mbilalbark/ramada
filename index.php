@@ -7,6 +7,7 @@
             <description>
 
             </description>
+            <meta content="width=device-width, initial-scale=1" name="viewport" />
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/splide-4.1.3/dist/css/splide.min.css">
             <script src="assets/splide-4.1.3/dist/js/splide.min.js"></script>
@@ -17,17 +18,22 @@
             <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
             <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
             <link href='https://css.gg/css' rel='stylesheet'>
-            <!-- For Bulma -->
             <link href="assets/datepicker/css/datepicker-bulma.css" rel="stylesheet" />
             <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.css">
             <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma-tooltip@3.0.2/dist/css/bulma-tooltip.min.css">
             <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
             <script src="https://kit.fontawesome.com/8b5912517c.js" crossorigin="anonymous"></script>
+            <meta content="width=device-width, initial-scale=1" name="viewport" />
     </head>
     <body>
         <header class="header">
-            <div class="menu">
-                <img class="logo" src="assets/images/logo.jpeg"/>
+            <img class="logo" src="assets/images/logo.png"/>
+            <div class="menu" id="menuToggle">
+                <input type="checkbox" />
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+                
                 <ul class="menu-ul flex-direction-row">
                     <li class="menu-li">
                       <a href="./" class="menu-button">Ana Sayfa</a>  
@@ -148,7 +154,7 @@
                     </div>
                 </div>
                 <div class="form-item fb">
-                    <button class="form-button ">Rezervasyon</button>
+                    <button class="form-button">Rezervasyon</button>
                 </div>
             </form>
         </div>
@@ -301,7 +307,7 @@
         <footer>
             <div class="footer-content">
                 <div class="footer-mini-contact">
-                    <img class="footer-logo" src="assets/images/logo.jpeg" />
+                    <img class="footer-logo" src="assets/images/logo.png" />
                     <div class="footer-mini-address">
                         Güllük Mah. Adnan Menderes Cad. No:145
                         Adapazarı / Sakarya</div>
