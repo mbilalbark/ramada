@@ -27,14 +27,14 @@ body{
     object-fit: cover;
 }
 .menu{
-    height: 95px;
-    position:fixed;
+    /* height: 95px;
+    position:fixed; */
     display: flex;
     flex-direction: row;
-    z-index: 102;
+    /* z-index: 102;
     width: 100%;
     padding-bottom: 10px;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .scrolling{
@@ -43,10 +43,6 @@ body{
 }
 
 .logo{
-  margin: 10px 18%;
-  position: fixed;
-  z-index: 103;
-  /* margin-top: 10px; */
   width: 200px;
   height: 75px;
 }
@@ -71,6 +67,19 @@ body{
     color:white;
     font-family: 'Poppins', sans-serif;;
 }
+
+.menu-parent{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+  z-index: 200;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+}
+
 .menu-button{
 
 }
@@ -266,6 +275,7 @@ body{
   width: 450px;
   font-family:'Poppins', sans-serif;;
   line-height: 1.6;
+  padding: 15px;
 }
 
 .room-list-item{
@@ -569,14 +579,13 @@ body{
     margin-top: 10px;
 }
 
-
-
 .footer-links {
     display: flex;
     flex-direction: column;
     margin-left: 140px;
     font-family:'Poppins', sans-serif; ;
 }
+
 .footer-links a{
     
     margin-top: 5px;
@@ -595,7 +604,6 @@ body{
     color:#ffc400;
 }
 
-
 .footer-language{
     display: flex;
     flex-direction: column;
@@ -613,7 +621,6 @@ body{
 .footer-language a:hover{
     color:#ffc400;
 }
-
 
 .footer-info{
     display: flex;
@@ -1189,13 +1196,13 @@ body{
     opacity: 0;
   }
 
-  @media only screen and (max-width: 960px){
-    .scrolling{
-
-      border-bottom: 1px solid #ededed00;
-      background: #fff0;
-  
+  .mini-logo{
+    display: none;
+    width: 163px;
+    height: 60px;
   }
+
+  @media only screen and (max-width: 960px){
     .flex-direction-column{
   
     }
@@ -1203,6 +1210,10 @@ body{
   
     }
     
+    .mini-logo{
+      display: block;
+    }
+
     #menuToggle
   {
     display: block;
@@ -1315,13 +1326,16 @@ body{
    */
    .menu-ul
   {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
     display: inline;
     position: absolute;
     width: 300px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    
+    box-shadow: -5px 4px 20px -5px rgb(59, 66, 70);
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -1332,13 +1346,27 @@ body{
     
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
-  
+
   .menu-ul .menu-li
   {
     padding: 10px 0;
     font-size: 22px;
   }
   
+  .menu-ul  .menu-li > .menu-ul{
+    background-color: rgba(121, 121, 121, 0);
+    position: fixed;
+    width: 250px;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .menu-ul .menu-li:active > .menu-ul { 
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+  }
   /*
    * And let's slide it in from the left
    */
@@ -1347,12 +1375,42 @@ body{
     transform: translate(-50%, 0);
   }
 
+  #menuToggle
+  {
+    height: 100%;
+  }
+
   }
   @media only screen and (max-width: 960px) and (min-width: 601px)  {
+    #menuToggle
+    {
+      height: 100%;
+    }
+    
     .footer-content {
       padding: 80px;
     }
 
+    .menu-ul{
+      height: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    .menu-ul  .menu-li > .menu-ul{
+      background-color: rgba(121, 121, 121, 0);
+      position: fixed;
+      width: 250px;
+      padding-top: 20px;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .menu-ul .menu-li:active> .menu-ul { 
+      position: relative;
+      visibility: visible;
+      opacity: 1;
+    }
     .content-upper-context-text {
       font-size: 17px;
       margin-left: auto;

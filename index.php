@@ -2,7 +2,7 @@
 <!DOCTYPE html>
     <head>
             <title>
-                Ramada
+                Ramada Resort Thermal Sapanca 
             </title>
             <description>
 
@@ -27,74 +27,77 @@
     </head>
     <body>
         <header class="header">
-            <img class="logo" src="assets/images/logo.png"/>
-            <div class="menu" id="menuToggle">
-                <input type="checkbox" />
-                <span class="first-span"></span>
-                <span class="second-span"></span>
-                <span class="third-span"></span>
-                
-                <ul class="menu-ul flex-direction-row">
-                    <li class="menu-li">
-                      <a href="./" class="menu-button">Ana Sayfa</a>  
-                    </li>
-                    <li class="menu-li">
-                        <a href="#" class="menu-button">Kurumsal</a> 
-                        <ul class="menu-ul flex-direction-column">
-                            <li class="menu-li">
-                                <a href="./hakkimizda.php" class="menu-button">Hakkımızda</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="./ik-kariyer.php" class="menu-button">İk / Kariyer</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="#" class="menu-button">Kişisel verilerin korunması</a>
-                                <ul class="menu-ul flex-direction-column menu-up">
-                                    <li class="menu-li">
-                                        <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
-                                    </li>
-                                    <li class="menu-li">
-                                        <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
-                                    </li>
-                                    <li class="menu-li">
-                                        <a href="./bgys.php" class="menu-button">BGYS</a> 
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-li">
-                        <a  href="./odalarimiz.php" class="menu-button">Odalarımız</a> 
-                    </li>
-                    <li class="menu-li">
-                        <a  href="./thermal-spa.php" class="menu-button">Termal SPA</a> 
-                    </li>
-                    <li class="menu-li">
-                    <a href="#" class="menu-button">Restoran</a> 
-                        <ul class="menu-ul flex-direction-column">
-                            <li class="menu-li">
-                                <a href="./ramada-restoran-menu.php" class="menu-button">Restoran Menu</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="./minibar.php" class="menu-button">Mini Bar</a> 
-                            </li>
-                        </ul> 
-                    </li>
-                    <li class="menu-li">
-                        <a href="" class="menu-button">Toplantı</a> 
-                        <ul class="menu-ul flex-direction-column">
-                            <li class="menu-li">
-                                <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="#" id="md-trigger" class="menu-button">Toplanti Teklif Formu</a> 
-                            </li>
-                        </ul> 
-                    </li>
-                    <li class="menu-li">
-                        <a href="./iletisim.php" class="menu-button">İletişim</a> 
-                    </li>
-                </ul>
+            <div class="menu-parent">
+                <img class="logo" src="assets/images/logo.png"/>
+                <div class="menu" id="menuToggle">
+                    <input type="checkbox" />
+                    <span class="first-span"></span>
+                    <span class="second-span"></span>
+                    <span class="third-span"></span>
+                    
+                    <ul class="menu-ul flex-direction-row">
+                        <img class="mini-logo" src="assets/images/logo.png"/>
+                        <li class="menu-li">
+                        <a href="./" class="menu-button">Ana Sayfa</a>  
+                        </li>
+                        <li class="menu-li">
+                            <a href="#" class="menu-button">Kurumsal</a> 
+                            <ul class="menu-ul flex-direction-column">
+                                <li class="menu-li">
+                                    <a href="./hakkimizda.php" class="menu-button">Hakkımızda</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./ik-kariyer.php" class="menu-button">İk / Kariyer</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="#" class="menu-button">Kişisel verilerin korunması</a>
+                                    <ul class="menu-ul flex-direction-column menu-up">
+                                        <li class="menu-li">
+                                            <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
+                                        </li>
+                                        <li class="menu-li">
+                                            <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
+                                        </li>
+                                        <li class="menu-li">
+                                            <a href="./bgys.php" class="menu-button">BGYS</a> 
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-li">
+                            <a  href="./odalarimiz.php" class="menu-button">Odalarımız</a> 
+                        </li>
+                        <li class="menu-li">
+                            <a  href="./thermal-spa.php" class="menu-button">Termal SPA</a> 
+                        </li>
+                        <li class="menu-li">
+                        <a href="#" class="menu-button">Restoran</a> 
+                            <ul class="menu-ul flex-direction-column">
+                                <li class="menu-li">
+                                    <a href="./ramada-restoran-menu.php" class="menu-button">Restoran Menu</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./minibar.php" class="menu-button">Mini Bar</a> 
+                                </li>
+                            </ul> 
+                        </li>
+                        <li class="menu-li">
+                            <a href="" class="menu-button">Toplantı</a> 
+                            <ul class="menu-ul flex-direction-column">
+                                <li class="menu-li">
+                                    <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="#" id="md-trigger" class="menu-button">Toplanti Teklif Formu</a> 
+                                </li>
+                            </ul> 
+                        </li>
+                        <li class="menu-li">
+                            <a href="./iletisim.php" class="menu-button">İletişim</a> 
+                        </li>
+                    </ul> 
+                </div>
             </div>
             <section class="splide" aria-label="ramada-hostel-image">
                 <div class="splide__track">
@@ -160,7 +163,7 @@
         </div>
         <div class="content main-page">
             <div class="content-upper">
-                <h1 class="content-upper-title"> Ramada Resort Termal Sapanca </h1>
+                <h1 class="content-upper-title"> Ramada Resort Thermal Sapanca  </h1>
                  <div class="content-upper-context">
                     <img class="content-upper-context-image" src="assets/images/19.jpg" />
                     <p class="content-upper-context-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dünyanın en yaygın uluslararası otel markası olan Wyndham Hotels & Group’un bir üyesi olarak, yüksek standartları ile tasarlanmış 
@@ -480,10 +483,10 @@
                 var scroll = $(window).scrollTop();
 
                 if (scroll >= 200) {
-                    $(".menu").addClass("scrolling");
+                    $(".menu-parent").addClass("scrolling");
                     $(".menu-button").addClass("menu-button-s");
                 } else {
-                    $(".menu").removeClass("scrolling");
+                    $(".menu-parent").removeClass("scrolling");
                     $(".menu-button").removeClass("menu-button-s");
                 }
             });

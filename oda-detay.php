@@ -23,74 +23,77 @@
     </head>
     <body>
         <header class="header">
-            <img class="logo" src="assets/images/logo.png"/>
-            <div class="menu" id="menuToggle">
-                <input type="checkbox" />
-                <span class="first-span"></span>
-                <span class="second-span"></span>
-                <span class="third-span"></span>
-                
-                <ul class="menu-ul flex-direction-row">
-                    <li class="menu-li">
-                      <a href="./" class="menu-button">Ana Sayfa</a>  
-                    </li>
-                    <li class="menu-li">
-                        <a href="#" class="menu-button">Kurumsal</a> 
-                        <ul class="menu-ul flex-direction-column">
-                            <li class="menu-li">
-                                <a href="./hakkimizda.php" class="menu-button">Hakkımızda</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="./ik-kariyer.php" class="menu-button">İk / Kariyer</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="#" class="menu-button">Kişisel verilerin korunması</a>
-                                <ul class="menu-ul flex-direction-column menu-up">
-                                    <li class="menu-li">
-                                        <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
-                                    </li>
-                                    <li class="menu-li">
-                                        <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
-                                    </li>
-                                    <li class="menu-li">
-                                        <a href="./bgys.php" class="menu-button">BGYS</a> 
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-li">
-                        <a  href="./odalarimiz.php" class="menu-button">Odalarımız</a> 
-                    </li>
-                    <li class="menu-li">
-                        <a  href="./thermal-spa.php" class="menu-button">Termal SPA</a> 
-                    </li>
-                    <li class="menu-li">
-                    <a href="#" class="menu-button">Restoran</a> 
-                        <ul class="menu-ul flex-direction-column">
-                            <li class="menu-li">
-                                <a href="./ramada-restoran-menu.php" class="menu-button">Restoran Menu</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="./minibar.php" class="menu-button">Mini Bar</a> 
-                            </li>
-                        </ul> 
-                    </li>
-                    <li class="menu-li">
-                        <a href="" class="menu-button">Toplantı</a> 
-                        <ul class="menu-ul flex-direction-column">
-                            <li class="menu-li">
-                                <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
-                            </li>
-                            <li class="menu-li">
-                                <a href="#" id="md-trigger" class="menu-button">Toplanti Teklif Formu</a> 
-                            </li>
-                        </ul> 
-                    </li>
-                    <li class="menu-li">
-                        <a href="./iletisim.php" class="menu-button">İletişim</a> 
-                    </li>
-                </ul>
+            <div class="menu-parent">
+                <img class="logo" src="assets/images/logo.png"/>
+                <div class="menu" id="menuToggle">
+                    <input type="checkbox" />
+                    <span class="first-span"></span>
+                    <span class="second-span"></span>
+                    <span class="third-span"></span>
+                    
+                    <ul class="menu-ul flex-direction-row">
+                        <img class="mini-logo" src="assets/images/logo.png"/>
+                        <li class="menu-li">
+                        <a href="./" class="menu-button">Ana Sayfa</a>  
+                        </li>
+                        <li class="menu-li">
+                            <a href="#" class="menu-button">Kurumsal</a> 
+                            <ul class="menu-ul flex-direction-column">
+                                <li class="menu-li">
+                                    <a href="./hakkimizda.php" class="menu-button">Hakkımızda</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./ik-kariyer.php" class="menu-button">İk / Kariyer</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="#" class="menu-button">Kişisel verilerin korunması</a>
+                                    <ul class="menu-ul flex-direction-column menu-up">
+                                        <li class="menu-li">
+                                            <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
+                                        </li>
+                                        <li class="menu-li">
+                                            <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
+                                        </li>
+                                        <li class="menu-li">
+                                            <a href="./bgys.php" class="menu-button">BGYS</a> 
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-li">
+                            <a  href="./odalarimiz.php" class="menu-button">Odalarımız</a> 
+                        </li>
+                        <li class="menu-li">
+                            <a  href="./thermal-spa.php" class="menu-button">Termal SPA</a> 
+                        </li>
+                        <li class="menu-li">
+                        <a href="#" class="menu-button">Restoran</a> 
+                            <ul class="menu-ul flex-direction-column">
+                                <li class="menu-li">
+                                    <a href="./ramada-restoran-menu.php" class="menu-button">Restoran Menu</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./minibar.php" class="menu-button">Mini Bar</a> 
+                                </li>
+                            </ul> 
+                        </li>
+                        <li class="menu-li">
+                            <a href="" class="menu-button">Toplantı</a> 
+                            <ul class="menu-ul flex-direction-column">
+                                <li class="menu-li">
+                                    <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
+                                </li>
+                                <li class="menu-li">
+                                    <a href="#" id="md-trigger" class="menu-button">Toplanti Teklif Formu</a> 
+                                </li>
+                            </ul> 
+                        </li>
+                        <li class="menu-li">
+                            <a href="./iletisim.php" class="menu-button">İletişim</a> 
+                        </li>
+                    </ul> 
+                </div>
             </div>
             <div class="page-title">
                 <h1>
@@ -195,7 +198,7 @@
                             <ul>
                         </div>
                     </div>
-                    <h2 class="room-detail-features-title">Rezervasyon</h2>
+                    <h2 class="room-detail-features-title rmobile">Rezervasyon</h2>
                     <div class="room-detail-rezervation">       
                     <form class="booking-form">
                 <div class="form-item form-item-bg-1">
@@ -385,52 +388,52 @@
             <script src="assets/datepicker/js/locales/tr.js"></script>
          <script>
              $(function() {
-                const datePickerOne = document.getElementById("datepicker1");
-            const datePickerTwo = document.getElementById("datepicker2");
-            const dateNow = Date.now();
-            const datePickOne = new Datepicker(datePickerOne, {
-                autohide: true,
-                minDate: dateNow,
-                language:"tr",
-                defaultViewDate: dateNow,
-                format: {
-                    toValue(date, format, locale) {
-                        let dateObject;
-                        return dateObject;
-                    },
-                    toDisplay(date, format, locale) {
-                        return date.getDate() + " " + locale.months[date.getMonth()] + " " + date.getFullYear();
-                    }
-                },
-            });
-            datePickOne.setDate(dateNow)
-            const datePickTwo = new Datepicker(datePickerTwo, {
-                autohide: true,
-                minDate: dateNow,
-                language:"tr",
-                format: {
-                    toValue(date, format, locale) {
-                        let dateObject;
-                        return dateObject;
-                    },
-                    toDisplay(date, format, locale) {
-                        return date.getDate() + " " + locale.months[date.getMonth()] + " " + date.getFullYear();
-                    }
-                },
-            });
-            datePickTwo.setDate(dateNow)
-            $(window).scroll(function() {    
-                var scroll = $(window).scrollTop();
+                    const datePickerOne = document.getElementById("datepicker1");
+                    const datePickerTwo = document.getElementById("datepicker2");
+                    const dateNow = Date.now();
+                    const datePickOne = new Datepicker(datePickerOne, {
+                        autohide: true,
+                        minDate: dateNow,
+                        language:"tr",
+                        defaultViewDate: dateNow,
+                        format: {
+                            toValue(date, format, locale) {
+                                let dateObject;
+                                return dateObject;
+                            },
+                            toDisplay(date, format, locale) {
+                                return date.getDate() + " " + locale.months[date.getMonth()] + " " + date.getFullYear();
+                            }
+                        },
+                    });
+                    datePickOne.setDate(dateNow)
+                    const datePickTwo = new Datepicker(datePickerTwo, {
+                        autohide: true,
+                        minDate: dateNow,
+                        language:"tr",
+                        format: {
+                            toValue(date, format, locale) {
+                                let dateObject;
+                                return dateObject;
+                            },
+                            toDisplay(date, format, locale) {
+                                return date.getDate() + " " + locale.months[date.getMonth()] + " " + date.getFullYear();
+                            }
+                        },
+                    });
+                datePickTwo.setDate(dateNow)
+                
+                $(window).scroll(function() {    
+                    var scroll = $(window).scrollTop();
 
-                if (scroll >= 200) {
-                    $(".menu").addClass("scrolling");
-                    $(".menu-button").addClass("menu-button-s");
-                } else {
-                    $(".menu").removeClass("scrolling");
-                    $(".menu-button").removeClass("menu-button-s");
-                }
-            });
-
+                    if (scroll >= 200) {
+                        $(".menu-parent").addClass("scrolling");
+                        $(".menu-button").addClass("menu-button-s");
+                    } else {
+                        $(".menu-parent").removeClass("scrolling");
+                        $(".menu-button").removeClass("menu-button-s");
+                    }
+                });
 
                 $('.owl-carousel').owlCarousel({
                     margin:10,
@@ -445,10 +448,10 @@
                     var scroll = $(window).scrollTop();
 
                     if (scroll >= 200) {
-                        $(".menu").addClass("scrolling");
+                        $(".menu-parent").addClass("scrolling");
                         $(".menu-button").addClass("menu-button-s");
                     } else {
-                        $(".menu").removeClass("scrolling");
+                        $(".menu-parent").removeClass("scrolling");
                         $(".menu-button").removeClass("menu-button-s");
                     }
                 });
