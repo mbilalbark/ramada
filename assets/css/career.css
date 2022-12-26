@@ -436,3 +436,35 @@
 .can-toggle.demo-rebrand-2 label .can-toggle__switch:hover:after {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
+
+@media only screen and (max-width: 960px)  
+{
+    .px250 {
+        width: 200px
+    }
+
+    .px500 {
+        width: 100%;
+    }
+    .px750{
+        width: 100%
+    }
+
+    .career-form{
+        width:100%;
+    }
+
+    .career-form-part {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .career-form-inputs-horizontal{
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .content-underline {
+        width:90%
+    }
+}

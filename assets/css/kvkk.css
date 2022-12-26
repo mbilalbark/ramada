@@ -1,0 +1,38 @@
+.list-ul{
+
+}
+
+.list-li{
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.list-ul .list-li > .list-ul .list-li{
+    margin-left: 20px;
+    font-size: 13px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.h5-title{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.mini-content-li{
+    width: 660px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family:'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .mini-content-li{
+        width: 90%;
+    }
+    
+}

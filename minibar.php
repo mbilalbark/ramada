@@ -288,6 +288,8 @@
                 </div>
             </div>
         </div>
+        
+  
         <div class="md-overlay"></div>
         <script>
              $(function() {
@@ -298,17 +300,7 @@
                     uiLibrary: 'bootstrap'
                 });
 
-                $(window).scroll(function() {    
-                    var scroll = $(window).scrollTop();
-
-                    if (scroll >= 200) {
-                        $(".menu").addClass("scrolling");
-                        $(".menu-button").addClass("menu-button-s");
-                    } else {
-                        $(".menu").removeClass("scrolling");
-                        $(".menu-button").removeClass("menu-button-s");
-                    }
-                });
+            
             })
             $(window).scroll(function() {    
                     var scroll = $(window).scrollTop();
@@ -321,6 +313,17 @@
                         $(".menu-button").removeClass("menu-button-s");
                     }
                 });
+
+            $(function () {
+                $('.md-menu-trigger').on('click', function() {
+                    $('.menu-modal').addClass('md-show');
+                });
+                
+                $('#md-close').on('click', function() {
+                    console.log("test");
+                    $('.menu-modal').removeClass('md-show');
+                });
+            });
 
             $(function () {
                 $('#md-trigger').on('click', function() {
