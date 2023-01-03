@@ -49,7 +49,7 @@
                                 <a href="#" class="menu-button">Kişisel verilerin korunması</a>
                                 <ul class="menu-ul flex-direction-column menu-up">
                                     <li class="menu-li">
-                                        <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a>
+                                        <a href="./kisisel-verilerin-islenmesi.php" class="menu-button">Kisisel Verilerin İslenmesi</a>
                                     </li>
                                     <li class="menu-li">
                                         <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi
@@ -80,7 +80,7 @@
                         </ul>
                     </li>
                     <li class="menu-li">
-                        <a href="" class="menu-button">Toplantı</a>
+                        <a href="#" class="menu-button">Toplantı</a>
                         <ul class="menu-ul flex-direction-column">
                             <li class="menu-li">
                                 <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a>
@@ -554,7 +554,7 @@
                         politikada yer verilen usullere uygun olarak imha edilir.
                     </p>
                     </br></br>
-                    <table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border: none;">
+                    <table class="" border="1" cellspacing="0" cellpadding="0" style="border: none;">
                         <tbody>
                             <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:23.95pt">
                                 <td width="319" style="border:solid windowtext 1.0pt;mso-border-alt:
@@ -1562,7 +1562,7 @@
                     <h5 class="h5-title">EK- TANIM ve TARİFLER</h5>
                     </br>
                     </br>
-                    <table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="0" style=" border: none;">
+                    <table class="" border="1" cellspacing="0" cellpadding="0" width="0" style=" border: none;">
  <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:26.7pt">
   <td width="167" style="width:125.5pt;border:solid windowtext 1.0pt;mso-border-alt:
   solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:26.7pt">
@@ -2231,7 +2231,7 @@
                         <button class="btn btn-success">Gonder</button>
                     </div>
                     <div class="modal-grid-item-13">
-                        <button id="md-close-tp" class="btn btn-light">Kapat</button>
+                        <button id="md-close" class="btn btn-light">Kapat</button>
                     </div>
                 </form>
             </div>

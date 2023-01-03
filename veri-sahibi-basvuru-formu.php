@@ -46,7 +46,7 @@
                                     <a href="#" class="menu-button">Kişisel verilerin korunması</a>
                                     <ul class="menu-ul flex-direction-column menu-up">
                                         <li class="menu-li">
-                                            <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
+                                            <a href="./kisisel-verilerin-islenmesi.php" class="menu-button">Kisisel Verilerin İslenmesi</a> 
                                         </li>
                                         <li class="menu-li">
                                             <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
@@ -76,7 +76,7 @@
                             </ul> 
                         </li>
                         <li class="menu-li">
-                            <a href="" class="menu-button">Toplantı</a> 
+                            <a href="#" class="menu-button">Toplantı</a> 
                             <ul class="menu-ul flex-direction-column">
                                 <li class="menu-li">
                                     <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
@@ -114,28 +114,28 @@
                     </h2>
                     <h4 class="mini-header">1. Başvuru Yöntemi</h4>
                     <p class="mini-content">6698 sayılı Kişisel Verilerin Korunması Kanunu’nun (“Kanun”) 11. Maddesinde sayılan haklarınız kapsamındaki taleplerinizi, Kanun’un 13. maddesi ile Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’in 5. maddesi gereğince, işbu form ile aşağıda açıklanan 3 yöntemden biriyle başvurunuzu Şirketimize iletebilirsiniz. </p>
-                    <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="0" style="width: 474.75pt; margin-left: -0.25pt;">
+                    <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="0" style=" margin-left: -0.25pt;">
                                     <tbody>
                                         <tr>
-                                        <td width="132" valign="top" style="width: 99.25pt; border: 1pt solid windowtext; background: rgb(231, 230, 230); padding: 0cm 5.4pt;">
+                                        <td  valign="top" style=" border: 1pt solid windowtext; background: rgb(231, 230, 230); ">
                                             <p class="MsoNormal">
                                             <b>&nbsp;</b>
                                             <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width="123" valign="top" style="width: 93.55pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; background: rgb(231, 230, 230); padding: 0cm 5.4pt; border-image: initial;">
+                                        <td  valign="top" style=" border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; background: rgb(231, 230, 230);  border-image: initial;">
                                             <p class="MsoNormal">
                                             <b>BAŞVURU YÖNTEMİ</b>
                                             <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width="181" valign="top" style="width: 133.25pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; background: rgb(231, 230, 230); padding: 0cm 5.4pt; border-image: initial;">
+                                        <td  valign="top" style=" border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; background: rgb(231, 230, 230);  border-image: initial;">
                                             <p class="MsoNormal">
                                             <b>BAŞVURU YAPILACAK ADRES</b>
                                             <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width="196" valign="top" style="width: 148.85pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; background: rgb(231, 230, 230); padding: 0cm 5.4pt; border-image: initial;">
+                                        <td  valign="top" style=" border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; background: rgb(231, 230, 230);  border-image: initial;">
                                             <p class="MsoNormal">
                                             <b>BAŞVURUDA GÖSTERİLECEK BİLGİ</b>
                                             <o:p></o:p>
@@ -150,8 +150,8 @@
                                         </td>
                                         </tr>
                                         <tr>
-                                        <td width="132" valign="top" style="width: 99.25pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; background: rgb(231, 230, 230); padding: 0cm 5.4pt; border-image: initial;">
-                                            <p class="MsoListParagraph" style="margin-left: 15.8pt; text-indent: -14.2pt;">
+                                        <td  valign="top" style="border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; background: rgb(231, 230, 230);  border-image: initial;">
+                                            <p class="MsoListParagraph" style=" text-indent: -14.2pt;">
                                             <b>1. <span times="" new="" "="" style=" font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal;"></span>
                                             </b>
                                             <span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -159,7 +159,7 @@
                                             <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width="123" valign="top" style="width: 93.55pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                             <p class="MsoNormal">
                                             <span times="" new="" ",serif;="" " ms="" "="">Islak imzalı şahsen
                                     başvuru veya
@@ -174,7 +174,7 @@
                                     <o:p></o:p>
                                 </p>
                             </td>
-                            <td width=" 181" valign="top" style="width: 133.25pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                            <td  valign="top" style="border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                                 <p class="MsoNormal">
                                                     <span times="" new="" "="">
                                         <span lang=" EN-US">&nbsp;</span>
@@ -193,7 +193,7 @@
                                             <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width="196" valign="top" style="width: 148.85pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                             <p class="MsoNormal">
                                             <span times="" new="" ",serif;="" "="">Zarfın/tebligatın üzerine “Kişisel Verilerin Korunması Kanunu Kapsamında Bilgi Talebi” yazılacaktır.</span>
                                             <o:p></o:p>
@@ -201,8 +201,8 @@
                                         </td>
                                         </tr>
                                         <tr>
-                                        <td width="132" valign="top" style="width: 99.25pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; background: rgb(231, 230, 230); padding: 0cm 5.4pt; border-image: initial;">
-                                            <p class="MsoListParagraph" style="margin-left: 15.8pt; text-indent: -14.2pt;">
+                                        <td  valign="top" style=" border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; background: rgb(231, 230, 230);  border-image: initial;">
+                                            <p class="MsoListParagraph" style=" text-indent: -14.2pt;">
                                             <b>2. <span times="" new="" "="" style=" font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal;"></span>
                                             </b>
                                             <span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -210,15 +210,15 @@
                                             <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width="123" valign="top" style="width: 93.55pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                             <p class="MsoNormal">
                                             <span times="" new="" ",serif;="" "="">Kayıtlı elektronik posta (KEP) adresi ile <o:p></o:p>
                                             </span>
                                             </p>
                                         </td>
-                                        <td width="181" valign="top" style="width: 133.25pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                             <p class="MsoNormal">
-                                            <span times="" new="" ",="" serif;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" "="">
+                                            <span times="" new="" serif;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" "="">
                                                 <span lang="EN-US">&nbsp;</span>
                                             </span>
                                             <o:p></o:p>
@@ -230,7 +230,7 @@
                                             <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width="196" valign="top" style="width: 148.85pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                                        <td  valign="top" style="border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                             <p class="MsoNormal">
                                             <span times="" new="" ",serif;="" " ms="" "="">E-posta’nın konu
                                     kısmına “Kişisel Verilerin Korunması Kanunu Bilgi Talebi” yazılacaktır.
@@ -240,8 +240,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <td width=" 132" valign="top" style="width: 99.25pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; background: rgb(231, 230, 230); padding: 0cm 5.4pt; border-image: initial;">
-                                                <p class="MsoListParagraph" style="margin-left: 15.8pt; text-indent: -14.2pt;">
+                            <td  valign="top" style=" border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; background: rgb(231, 230, 230);  border-image: initial;">
+                                                <p class="MsoListParagraph" style=" text-indent: -14.2pt;">
                                                 <b>3. <span times="" new="" "="" style=" font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal;"></span>
                                                 </b>
                                                 <span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -249,7 +249,7 @@
                                                 <o:p></o:p>
                                                 </p>
                                         </td>
-                                        <td width="123" valign="top" style="width: 93.55pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                             <p class="MsoNormal">
                                             <span times="" new="" ",serif;="" " ms="" "="">Şirketimizin
                                     sisteminde kayıtlı bulunan elektronik posta adresiniz kullanılmak suretiyle</span>
@@ -258,7 +258,7 @@
                                     </span>
                                 </p>
                             </td>
-                            <td width=" 181" valign="top" style="width: 133.25pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                            <td valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                                 <p class="MsoNormal">
                                                 <span times="" new="" ",serif;="" "="">&nbsp;</span>
                                                 <o:p></o:p>
@@ -277,7 +277,7 @@
                                                 <o:p></o:p>
                                                 </p>
                                         </td>
-                                        <td width="196" valign="top" style="width: 148.85pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                                             <p class="MsoNormal">
                                             <span times="" new="" ",serif;background:yellow;mso-highlight:="" "="">
                                                 <u1:p></u1:p>
@@ -295,74 +295,74 @@
                     <p class="mini-content">Lütfen sizinle iletişime geçebilmemiz ve kimliğinizi doğrulayabilmemiz adına aşağıdaki alanları doldurunuz.</p>
                     <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0">
                         <tbody><tr>
-                        <td width="189" valign="top" style="width: 141.5pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td  valign="top" style="border: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">Ad-Soyadı<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="19" valign="top" style="width: 14.2pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; padding: 0cm 5.4pt; border-image: initial;">
+                        <td  valign="top" style="border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none;  border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">:<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="397" valign="top" style="width: 297.4pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; padding: 0cm 5.4pt; border-image: initial;">
+                        <td  valign="top" style=" border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none;  border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
                         </tr>
                         <tr>
-                        <td width="189" valign="top" style="width: 141.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; padding: 0cm 5.4pt; border-image: initial;">
+                        <td valign="top" style=" border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;  border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">T.C. Kimlik
                         Numarası /<u1:p></u1:p></span><o:p></o:p></p>
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">Diğer Ülke
                         Vatandaşları için Pasaport Numarası veya Kimlik Numarası<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="19" valign="top" style="width: 14.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td valign="top" style="border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">:<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="397" valign="top" style="width: 297.4pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
                         </tr>
                         <tr>
-                        <td width="189" valign="top" style="width: 141.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; padding: 0cm 5.4pt; border-image: initial;">
+                        <td valign="top" style="border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;  border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">Tebligata Esas
                         Yerleşim Yeri Adresi / İş Yeri Adresi<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="19" valign="top" style="width: 14.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">:<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="397" valign="top" style="width: 297.4pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
                         </tr>
                         <tr>
-                        <td width="189" valign="top" style="width: 141.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; padding: 0cm 5.4pt; border-image: initial;">
+                        <td  valign="top" style=" border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;  border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">Cep Telefonu<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="19" valign="top" style="width: 14.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td valign="top" style="border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">:<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="397" valign="top" style="width: 297.4pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
                         </tr>
                         <tr>
-                        <td width="189" valign="top" style="width: 141.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; padding: 0cm 5.4pt; border-image: initial;">
+                        <td  valign="top" style="border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;  border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">Telefon Numarası<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="19" valign="top" style="width: 14.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">:<u1:p></u1:p></span><o:p></o:p></p>
                         </td>
-                        <td width="397" valign="top" style="width: 297.4pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
                         </tr>
                         <tr>
-                        <td width="189" valign="top" style="width: 141.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; padding: 0cm 5.4pt; border-image: initial;">
+                        <td  valign="top" style="border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;  border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">E-posta Adresi&nbsp;<u1:p></u1:p></span><o:p></o:p></p>
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
-                        <td width="19" valign="top" style="width: 14.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td valign="top" style=" 14.2pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">:<u1:p></u1:p></span><o:p></o:p></p>
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
-                        <td width="397" valign="top" style="width: 297.4pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td  valign="top" style="border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">&nbsp;</span><o:p></o:p></p>
                         </td>
@@ -373,7 +373,7 @@
                     <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0">
                     <tbody>
                         <tr>
-                        <td width="189" rowspan="2" valign="top" style="width:141.5pt;border:solid windowtext 1.0pt;
+                        <td  rowspan="2" valign="top" style="border:solid windowtext 1.0pt;
                     padding:0cm 5.4pt 0cm 5.4pt">
                             <p class="MsoNormal">&nbsp; <o:p></o:p>
                             </p>
@@ -385,7 +385,7 @@
                                         <o:p></o:p>
                                     </p>
                                 </td>
-                                <td width=" 19" rowspan="2" valign="top" style="width: 14.2pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; padding: 0cm 5.4pt; border-image: initial;">
+                                <td  rowspan="2" valign="top" style="border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none;  border-image: initial;">
                                 <p class="MsoNormal">
                                 <span times="" new="" ",serif;="" " times="" "="">:
                                             <u1:p></u1:p>
@@ -393,7 +393,7 @@
                                         <o:p></o:p>
                                     </p>
                                 </td>
-                                <td width=" 113" valign="top" style="width: 74.35pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; padding: 0cm 5.4pt; border-image: initial;">
+                                <td  valign="top" style="border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none;  border-image: initial;">
                                     <p class="MsoNormal">
                                     <span times="" new="" ",serif;="" " times="" "="">Müşteri/Misafir
                                             <u1:p></u1:p>
@@ -401,7 +401,7 @@
                                         <o:p></o:p>
                                     </p>
                                 </td>
-                                <td width=" 99" valign="top" style="width: 74.35pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; padding: 0cm 5.4pt; border-image: initial;">
+                                <td  valign="top" style=" border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none;  border-image: initial;">
                                         <p class="MsoNormal">
                                         <span times="" new="" ",serif;mso-fareast-font-family:="" " times="" "="">
                                             <u1:p></u1:p>
@@ -423,7 +423,7 @@
                                                 </span>
                                             </p>
                                         </td>
-                                        <td width=" 99" valign="top" style="width: 74.35pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; padding: 0cm 5.4pt; border-image: initial;">
+                                        <td valign="top" style=" border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none;  border-image: initial;">
                                             <p class="MsoNormal">
                                                 <span times="" new="" ",serif;="" " times="" "="">Çalışan
                                                     <u1:p></u1:p>
@@ -431,7 +431,7 @@
                                                 <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width=" 99" valign="top" style="width: 74.35pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; padding: 0cm 5.4pt; border-image: initial;">
+                                        <td valign="top" style="border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none;  border-image: initial;">
                                                 <p class="MsoNormal">
                                                     <span times="" new="" ",serif;mso-fareast-font-family:="" " times="" "="">
                                                     <u1:p></u1:p>
@@ -450,7 +450,7 @@
                                         </td>
                                     </tr>
                                     <tr style=" height: 20.85pt;">
-                        <td width="113" valign="top" style="width: 74.35pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt; height: 20.85pt;">
+                        <td  valign="top" style=" border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;  height: 20.85pt;">
                             <p class="MsoNormal">
                             <span times="" new="" ",serif;="" " times="" "="">Ziyaretçi
                                                     <u1:p></u1:p>
@@ -458,12 +458,12 @@
                                                 <o:p></o:p>
                                             </p>
                                         </td>
-                                        <td width=" 99" valign="top" style="width: 74.35pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt; height: 20.85pt;">
+                                        <td  valign="top" style=" 74.35pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;  height: 20.85pt;">
                                 <span style="font-size:12.0pt;font-family:" times="" new="" roman",serif;mso-fareast-font-family:="" "times="" roman" ;mso-ansi-language:tr;mso-fareast-language:tr;mso-bidi-language:="" ar-sa"="">
                                 <u1:p></u1:p>
                                 </span>
                         </td>
-                        <td width="99" valign="top" style="width: 74.35pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt; height: 20.85pt;">
+                        <td width="99" valign="top" style=" 74.35pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;  height: 20.85pt;">
                             <p class="MsoNormal">
                             <span times="" new="" ",serif;="" " times="" "="">Diğer
                                                     <u1:p></u1:p>
@@ -476,7 +476,7 @@
                                 <o:p></o:p>
                             </p>
                         </td>
-                        <td width="99" valign="top" style="width: 74.35pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0cm 5.4pt; height: 20.85pt;">
+                        <td width="99" valign="top" style=" 74.35pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext;  height: 20.85pt;">
                             <p class="MsoNormal">
                             <span times="" new="" ",serif;mso-fareast-font-family:="" " times="" "="">
                                                     <u1:p></u1:p>
@@ -497,16 +497,16 @@
                                 </tbody>
                     </table>  
                     <h4 class="mini-header">4. Talep Konusu</h4>
-                    <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="0" style="width: 467.55pt;">
+                    <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="0" >
                         <tbody><tr>
-                        <td width="623" valign="top" style="width: 467.55pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+                        <td width="623" valign="top" style=" 467.55pt; border: 1pt solid windowtext; ">
                         <p class="MsoNormal"><span times="" new="" ",serif;="" "times="" "="">Kişisel
                         verilerinize ilişkin talebinizi aşağıda açıkça yazmanızı rica ederiz.&nbsp;</span><span times="" new="" ",serif;mso-fareast-font-family:="" "times="" "="">Konuya ilişkin bilgi ve belgeler başvuruya
                         eklenmelidir.</span></p>
                         </td>
                         </tr>
                         <tr style="height: 137.7pt;">
-                        <td width="623" valign="top" style="width: 467.55pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; padding: 0cm 5.4pt; height: 137.7pt; border-image: initial;">
+                        <td width="623" valign="top" style=" 467.55pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none;  height: 137.7pt; border-image: initial;">
                         <p class="MsoNormal"><span times="" new="" ",serif;mso-fareast-font-family:calibri;="" "="">&nbsp;</span><o:p></o:p></p>
                         <p class="MsoNormal"><br></p>
                         <p class="MsoNormal"><span times="" new="" ",serif;mso-fareast-font-family:calibri;="" "="">&nbsp;</span><o:p></o:p></p>
@@ -654,7 +654,7 @@ Yukarıda belirttiğim talepler doğrultusunda, Şirketinize yapmış olduğum b
                             <button class="btn btn-success">Gonder</button>
                         </div>
                         <div class="modal-grid-item-13">
-                            <button id="md-close-tp" class="btn btn-light">Kapat</button>
+                            <button id="md-close" class="btn btn-light">Kapat</button>
                         </div>
                     </form>
                 </div>

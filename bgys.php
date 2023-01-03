@@ -46,7 +46,7 @@
                                     <a href="#" class="menu-button">Kişisel verilerin korunması</a>
                                     <ul class="menu-ul flex-direction-column menu-up">
                                         <li class="menu-li">
-                                            <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
+                                            <a href="./kisisel-verilerin-islenmesi.php" class="menu-button">Kisisel Verilerin İslenmesi</a> 
                                         </li>
                                         <li class="menu-li">
                                             <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
@@ -76,7 +76,7 @@
                             </ul> 
                         </li>
                         <li class="menu-li">
-                            <a href="" class="menu-button">Toplantı</a> 
+                            <a href="#" class="menu-button">Toplantı</a> 
                             <ul class="menu-ul flex-direction-column">
                                 <li class="menu-li">
                                     <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
@@ -263,7 +263,7 @@ Bilgiye erişilebilirlik ve bilgi sistemleri için iş gereksinimlerini karşıl
                             <button class="btn btn-success">Gonder</button>
                         </div>
                         <div class="modal-grid-item-13">
-                            <button id="md-close-tp" class="btn btn-light">Kapat</button>
+                            <button id="md-close" class="btn btn-light">Kapat</button>
                         </div>
                     </form>
                 </div>

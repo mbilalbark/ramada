@@ -656,11 +656,12 @@ body{
 
 
 .md-modal {
-    margin: auto;
+  overflow-y: scroll;
+  margin: auto;
 	position: fixed;
 	top: 100px;
 	left: 0;
-    right: 0;
+  right: 0;
 	width: 50%;
 	max-width: 630px;
 	min-width: 320px;
@@ -728,10 +729,11 @@ body{
 .modal-form{
     display: grid;
     margin: auto;
-    overflow: hidden; 
-    height: 700px;
-    grid-template-columns: [first] 100px [line2] 100px [line3] 100px [line4] 100px [line5] 100px [line6] 100px [end];
-    grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 100px [row5] 100px [row6] 100px [row7] 100px [row8];
+    height: 750px;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    /* grid-template-columns: [first] 100px [line2] 100px [line3] 100px [line4] 100px [line5] 100px [line6] 100px [end]; */
+    grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 150px [row5] 100px [row6] 100px [row7] 100px [row8];
 }
 
 .md-close{
@@ -1201,8 +1203,14 @@ body{
     width: 163px;
     height: 60px;
   }
+  .MsoNormalTable{
+    width: 45%;
+  }
 
   @media only screen and (max-width: 960px){
+    .MsoNormalTable{
+      width:100% ;
+    }
     .flex-direction-column{
   
     }
@@ -1362,7 +1370,7 @@ body{
     opacity: 0;
   }
 
-  .menu-ul .menu-li:active > .menu-ul { 
+  .menu-ul .menu-li:hover > .menu-ul { 
     position: relative;
     visibility: visible;
     opacity: 1;
@@ -1406,7 +1414,7 @@ body{
       opacity: 0;
     }
 
-    .menu-ul .menu-li:active> .menu-ul { 
+    .menu-ul .menu-li:hover> .menu-ul { 
       position: relative;
       visibility: visible;
       opacity: 1;

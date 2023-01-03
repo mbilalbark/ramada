@@ -47,7 +47,7 @@
                                     <a href="#" class="menu-button">Kişisel verilerin korunması</a>
                                     <ul class="menu-ul flex-direction-column menu-up">
                                         <li class="menu-li">
-                                            <a href="#" class="menu-button">Kisisel Verilerin İslenmesi</a> 
+                                            <a href="./kisisel-verilerin-islenmesi.php" class="menu-button">Kisisel Verilerin İslenmesi</a> 
                                         </li>
                                         <li class="menu-li">
                                             <a href="./veri-sahibi-basvuru-formu.php" class="menu-button">Veri Sahibi Basvuru Formu</a> 
@@ -77,7 +77,7 @@
                             </ul> 
                         </li>
                         <li class="menu-li">
-                            <a href="" class="menu-button">Toplantı</a> 
+                            <a href="#" class="menu-button">Toplantı</a> 
                             <ul class="menu-ul flex-direction-column">
                                 <li class="menu-li">
                                     <a href="./toplanti-salonu.php" class="menu-button">Toplanti Salonlari</a> 
@@ -109,7 +109,7 @@
             <div class="content-mid">
                 <div class="restourant-menu">
                     <div class="restourant-menu-item md-menu-trigger">
-                        <img class="menu-image" src="https://bungalov-test-website.000webhostapp.com/assets/images/food/1.PNG"/>
+                        <img class="menu-image" src="https://media-cdn.tripadvisor.com/media/photo-s/1c/87/a3/23/lemon-berry-capone-pancakes.jpg"/>
                         <h5 class="menu-item-header">Kirmizi Salatali Pankek<div class="menu-item-header-right"></div></h5>
                     </div>
                     <div class="restourant-menu-item md-menu-trigger">
@@ -297,7 +297,7 @@
                             <button class="btn btn-success">Gonder</button>
                         </div>
                         <div class="modal-grid-item-13">
-                            <button id="md-close-tp" class="btn btn-light">Kapat</button>
+                            <button id="md-close" class="btn btn-light">Kapat</button>
                         </div>
                     </form>
                 </div>
@@ -340,7 +340,7 @@
                     $('.md-modal').addClass('md-show');
                 });
                 
-                $('#md-close-tp').on('click', function() {
+                $('#md-close').on('click', function() {
                     $('.md-modal').removeClass('md-show');
                 });
             });
